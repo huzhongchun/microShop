@@ -1,0 +1,32 @@
+
+/***** 猜你喜欢 *****/
+.guess-title{
+    color: #000;
+    font-size: 13px;
+    padding: 10px;
+}
+.product-list-area{
+    width: 100%;
+    background: #fff;
+}
+.product-list{
+    background: #e6e6e6;
+    padding-top: 2px;
+}
+.product-list .product-item{
+    width: 160px;
+    height: 200px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #e6e6e6;
+    border-right: 1px solid #e6e6e6;
+    background: url("../images/add_icon.png") #fff center no-repeat;
+    background-size: 60px auto;
+    float: left;
+}
+.product-item img{
+    display: block;
+    width: 100%;
+}
+.product-list .product-item:nth-child(2n){
+    border-right: none;
+}

@@ -12,6 +12,9 @@
     text-align: center;
     float: left;
 }
+.handle-order-item .active{
+    color: #ff8032;
+}
 .handle-order-item .handle-name{
     vertical-align: middle;
     font-size: 15px;

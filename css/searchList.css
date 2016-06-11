@@ -1,0 +1,65 @@
+
+/***** 搜索列表 *****/
+.search-list-area{
+    background: #f3f3f3;
+    padding-top: 5px;
+}
+.search-list-area .left-scroll-box{
+    float: left;
+    width: 70px;
+    height: 100%;
+    overflow: hidden;
+}
+.left-scoll-box .category-list{
+
+}
+.category-list .category-item{
+    width: 65px;
+    height: 30px;
+    line-height: 30px;
+    overflow: hidden;
+    text-align: center;
+    background: #fff;
+    font-size: 13px;
+    margin-bottom: 3px;
+}
+.category-list .category-item.active{
+    color: #ff8032;
+    border-right: 2px solid #ff8032;
+}
+.category-list .add-category-item{
+    background: url("../images/add_icon_1.png") #fff 21px center no-repeat;
+    background-size: auto 24px;
+}
+.right-scroll-box{
+    width: 246px;
+    height: 100%;
+    overflow: hidden;
+    background: #fff;
+    float: left;
+    padding-left: 4px;
+}
+.right-scroll-box .product-list{
+    background: #e6e6e6;
+    position: relative;
+    z-index: 3;
+}
+.right-scroll-box .product-item{
+    display: block;
+    width: 80px;
+    height: 80px;
+    overflow: hidden;
+    margin-bottom: 2px;
+    margin-right: 2px;
+    background: #fff;
+    float: left;
+}
+.product-item img{
+    display: block;
+    width: 100%;
+}
+
+.right-scroll-box .add-product-item{
+    background: url("../images/add_icon.png") #fff center no-repeat;
+    background-size: 60px auto;
+}

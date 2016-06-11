@@ -1,0 +1,126 @@
+
+/***** 分销后台 *****/
+
+.admin-page-title{
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 6px;
+    border-bottom: 5px solid #e6e6e6;
+}
+
+.user-data-area{
+    border-bottom: 5px solid #e6e6e6;
+}
+.user-data-area .data-title{
+    font-size: 15px;
+    text-align: center;
+    padding: 8px 0;
+    border-bottom: 2px solid #e6e6e6;
+}
+.data-list{
+    width: 100%;
+}
+.data-list .data-item{
+    width: 33.3%;
+    height: 66px;
+    overflow: hidden;
+    box-sizing: border-box;
+    border-bottom: 1px solid #e6e6e6;
+    border-right: 1px solid #e6e6e6;
+    float: left;
+}
+.data-list .data-item:nth-child(3n){
+    border-right: none;
+}
+.data-item .data-numb{
+    font-weight: bold;
+    display: block;
+    padding: 10px 4px;
+    text-align: center;
+}
+.data-item .data-name{
+    display: block;
+    padding: 5px 4px;
+    text-align: center;
+    font-size: 10px;
+    color: #7f7f7f;
+}
+.add-data-item{
+    background: url("../images/add_icon_1.png") 44px center no-repeat;
+    background-size: auto 26px;
+}
+
+.handle-func-area .func-list{
+    width: 100%;
+}
+.func-list .func-item{
+    width: 50%;
+    height: 80px;
+    float: left;
+    font-size: 15px;
+    color: #3d3d3d;
+    padding: 10px 0;
+    border-bottom: 1px solid #e6e6e6;
+}
+.func-item .item-box{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    border-right: 1px solid #e6e6e6;
+    height: 80px;
+    overflow: hidden;
+}
+.func-item .count-name{
+    padding-top: 3px;
+    display: block;
+    text-align: center;
+    margin-bottom: 25px;
+    font-weight: bold;
+}
+.func-item .count-result{
+    display: block;
+    text-align: center;
+}
+.count-result .unit{
+    vertical-align: middle;
+    margin-right: 2px;
+    font-weight: bold;
+}
+.count-result .numb{
+    vertical-align: middle;
+    font-weight: bold;
+}
+
+.func-item .func-name{
+    padding-top: 3px;
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 2px;
+}
+.func-item .func-icon{
+    display: block;
+    width: 100%;
+    text-align: center;
+    height: 55px;
+    overflow: hidden;
+}
+.func-icon img{
+    display: inline-block;
+    height: 100%;
+    width: auto;
+}
+
+.add-func-item .item-box{
+    background: url("../images/add_signal_icon.png") center no-repeat;
+    background-size: 20px auto;
+}
+
+
+
+
+
+
+
+

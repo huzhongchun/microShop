@@ -197,4 +197,4 @@
     }
 
     F.addWidget('scrollObject', scrollObject);
-})(window)
+})(window);
