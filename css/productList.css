@@ -1,0 +1,113 @@
+
+
+.handle-order-area{
+    width: 100%;
+    padding: 2px 0 5px;
+    border-bottom: 3px solid #e6e6e6;
+}
+.handle-order-area .handle-order-item{
+    width: 33.3%;
+    box-sizing: border-box;
+    border-right: 1px solid #e6e6e6;
+    text-align: center;
+    float: left;
+}
+.handle-order-item .handle-name{
+    vertical-align: middle;
+    font-size: 15px;
+    line-height: 18px;
+    height: 18px;
+}
+.handle-order-item .hanle-arrow{
+    display: inline-block;
+    width: 13px;
+    height: 14px;
+    overflow: hidden;
+    vertical-align: middle;
+}
+.hanle-arrow .arrow-up{
+    display: block;
+    width: 100%;
+    height: 6px;
+    background: url("../images/arrow_up_icon.png") 0 center no-repeat;
+    background-size: auto 100%;
+}
+.hanle-arrow .arrow-down{
+    display: block;
+    width: 100%;
+    height: 6px;
+    background: url("../images/arrow_down_icon.png") 0 center no-repeat;
+    background-size: auto 100%;
+}
+
+/****** 商品列表 ******/
+.product-list{
+
+}
+.product-list .product-item{
+    width: 100%;
+    position: relative;
+    border-bottom: 1px solid #e6e6e6;
+    font-size: 0;
+    height: 110px;
+    overflow: hidden;
+}
+.product-item .product-img-box{
+    display: inline-block;
+    width: 105px;
+    height: 110px;
+    overflow: hidden;
+    background: url("../images/add_icon.png") center no-repeat;
+    background-size: 60px auto;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+.product-img-box img{
+    display: block;
+    width: 100%;
+}
+.product-item .product-info-box{
+    display: inline-block;
+    width: 195px;
+    height: 110px;
+    position: relative;
+    vertical-align: middle;
+}
+.product-info-box .product-desc{
+    display: block;
+    width: 100%;
+    text-align: justify;
+    font-size: 10px;
+    line-height: 15px;
+    height: 28px;
+    overflow: hidden;
+    padding-top: 8px;
+    margin-bottom: 7px;
+}
+.product-info-box .product-time{
+    display: block;
+    font-size: 10px;
+    color: #cecece;
+    margin-bottom: 7px;
+}
+.product-info-box .product-price{
+    display: block;
+    color: #ec5357;
+    margin-bottom: 7px;
+    font-size: 12px;
+}
+.product-info-box .product-comment-count{
+    display: block;
+    font-size: 10px;
+    color: #808080;
+}
+.product-info-box .add-btn{
+    display: inline-block;
+    font-size: 10px;
+    color: #fff;
+    background: #ff8032;
+    position: absolute;
+    right: 0;
+    bottom: 9px;
+    padding: 3px 5px;
+}

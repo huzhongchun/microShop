@@ -1,0 +1,83 @@
+
+/***** 顶部bar *****/
+.top-bar-area{
+    width: 100%;
+    height: 42px;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 5px;
+    box-shadow: #dadada 0 3px 4px;
+    font-size: 0;
+}
+.top-bar-area .left-box{
+    display: inline-block;
+    width: 40px;
+    height: 100%;
+    overflow: hidden;
+}
+.left-box .arrow-back-btn{
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: url("../images/arrow_left.png") center no-repeat;
+    background-size: 12px auto;
+}
+.top-bar-area .middle-box{
+    display: inline-block;
+    width: 205px;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.middle-box .search-product{
+    width: 170px;
+    margin: 0 auto;
+    height: 25px;
+    overflow: hidden;
+    background: #e6e6e6;
+    font-size: 0;
+    position: relative;
+    top: 8px;
+    left:0;
+}
+.search-product .search-input{
+    display: inline-block;
+    font-size: 15px;
+    padding: 0;
+    margin: 0;
+    border: none;
+    padding-left: 15px;
+    width: 120px;
+    height: 100%;
+    vertical-align: middle;
+    background: transparent;
+}
+.search-product .search-btn{
+    display: inline-block;
+    width: 30px;
+    height: 100%;
+    background: url("../images/search_icon.png") center no-repeat;
+    background-size: 18px auto;
+    vertical-align: middle;
+}
+.top-bar-area .right-box{
+    display: inline-block;
+    width: 75px;
+    height: 100%;
+    overflow: hidden;
+    font-size: 0;
+}
+.right-box .shop-cart{
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+    background: url("../images/shop_cart_icon.png") 8px center no-repeat;
+    background-size: auto 22px;
+}
+.right-box .share-btn{
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+    background: url("../images/share_icon.png") 8px center no-repeat;
+    background-size: auto 24px;
+}
