@@ -1,4 +1,6 @@
-
+#scale-wrapper{
+    position: relative;
+}
 /***** 顶部bar *****/
 .top-bar-area{
     width: 100%;
@@ -119,12 +121,14 @@
     overflow: hidden;
 }
 .fixed-bottom-box{
-    width: 100%;
+    width: 320px;
     height: 44px;
     border-top: 2px solid #e6e6e6;
     position: fixed;
     bottom: 0;
     left: 0;
+    right:0;
+    margin: auto;
     z-index: 10;
     background: #252525;
 }

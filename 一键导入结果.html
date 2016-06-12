@@ -7,9 +7,10 @@
         <meta name="format-detection" content="address=no">
         <link rel="icon" href="">
         <link rel="stylesheet" type="text/css" href="./framework/css/lib/base.css">
+        <link rel="stylesheet" type="text/css" href="./framework/css/widget/dialog.css">
         <link rel="stylesheet" type="text/css" href="./css/public.css">
-        <link rel="stylesheet" type="text/css" href="./css/home.css">
-        <title>首页</title>
+        <link rel="stylesheet" type="text/css" href="./css/homeImport.css">
+        <title>一键导入商品结果</title>
     </head>
     <body>
        <div id="scale-wrapper">
@@ -62,34 +63,7 @@
            <div class="home-product-list-area">
                <ul class="product-list clearfloat">
                    <li class="product-item first-big-item">
-                        <a class="product-link">
-                            <div class="product-img">
-                                <img src="./images/pic_05.png">
-                            </div>
-                            <div class="first-item-intro">
-                                <div class="first-intro">
-                                    <span class="first-text">人气冠军</span>
-                                    <span class="sale-count">
-                                        <span>卖出</span>
-                                        <span class="numb-signal">9</span>
-                                        <span class="numb-signal">9</span>
-                                        <span class="numb-signal">9</span>
-                                        <span class="numb-signal">9</span>
-                                        <span class="numb-signal">9</span>
-                                        <span>件</span>
-                                    </span>
-                                </div>
-                                <div class="product-desc">
-                                    <span class="desc-text">荔枝5斤 新鲜上市</span>
-                                    <span class="activity-text">两份减5元</span>
-                                </div>
-                                <div class="product-price">
-                                    <span class="unit">￥</span>
-                                    <span class="">69.0</span>
-                                </div>
-                            </div>
-                        </a>
-                        <a class="add-shop-cart"></a>
+                       <span class="change-product-btn">更换商品</span>
                    </li>
                    <li class="product-item">
                        <a class="product-link">
@@ -106,22 +80,38 @@
                            </div>
                        </a>
                        <a class="add-shop-cart"></a>
+                       <span class="change-product-btn">更换商品</span>
                    </li>
                    <li class="product-item">
-
+                       <span class="change-product-btn">更换商品</span>
                    </li>
                    <li class="product-item">
-
+                       <span class="change-product-btn">更换商品</span>
                    </li>
                    <li class="product-item">
-
+                       <span class="change-product-btn">更换商品</span>
                    </li>
                    <li class="product-item">
-
+                       <span class="change-product-btn">更换商品</span>
                    </li>
                </ul>
            </div>
        </div>
        <script src="./framework/js/lib/zepto.js"></script>
+       <script src="./framework/js/widget/dialog.js"></script>
+        <script>
+            $(function () {
+                var dialog = new F.widget.dialogObject({
+                    width: 200,
+                    content: '<div class="content-text">是否保存导入模板一的商品展示</div>'+
+                            '<div class="handle-btn-box clearfloat"><span class="sure-btn">确定</span><span class="cancel-btn">取消</span> </div>',
+                });
+
+                    $('.cancel-btn').click(function () {
+                        dialog.hide();
+                    })
+                dialog.show();
+            })
+        </script>
     </body>
 </html>

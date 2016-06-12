@@ -1,0 +1,79 @@
+
+/***** 规格参数 *****/
+
+.info-tab-nav{
+    width: 100%;
+    border-bottom: 2px solid #e6e6e6;
+}
+.info-tab-nav .tab-item{
+    display: block;
+    padding: 6px 20px;
+    font-size: 15px;
+    float: left;
+    font-weight: bold;
+    color: #000;
+}
+.info-tab-nav .tab-item.active{
+    color: #ff8032;
+}
+.info-tab-content-list .tab-content-item{
+    width: 100%;
+    display: none;
+}
+.tab-content-item.active{
+    display: block;
+}
+.tab-content-item img{
+    display: block;
+    width: 100%;
+}
+.info-table-box{
+    background: #f3f8fb;
+    font-size: 12px;
+}
+.table-title{
+    padding: 2px 5px;
+    border-bottom: 1px solid #e6e6e6;
+}
+.table-tr{
+    width: 100%;
+    border-bottom: 1px solid #e6e6e6;
+    font-size: 0;
+}
+.tr-name{
+    display: inline-block;
+    width: 100px;
+    padding: 2px 0 2px 5px;
+    font-size: 12px;
+    border-right: 1px solid #e6e6e6;
+    vertical-align: middle;
+}
+.tr-content{
+    padding: 2px 0 2px 5px;
+    font-size: 12px;
+    vertical-align: middle;
+}
+.add-tr{
+    background: #fff;
+}
+.add-tr .tr-name{
+    height: 14px;
+}
+.add-tr .add-icon{
+    display: inline-block;
+    width: 60px;
+    height: 14px;
+    background: url("../images/add_icon_1.png") 27px -1px no-repeat;
+    background-size: auto 14px;
+    overflow: hidden;
+    vertical-align: middle;
+}
+
+
+/*** 占位 ***/
+.img-holder{
+    width: 100%;
+    height: 390px;
+    background: url("../images/add_icon.png") center no-repeat;
+    background-size: 60px auto;
+}

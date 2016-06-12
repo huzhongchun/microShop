@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+        <meta name="viewport" id="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+        <meta name="format-detection" content="telephone=no"/>
+        <meta name="format-detection" content="address=no">
+        <link rel="icon" href="">
+        <link rel="stylesheet" type="text/css" href="./framework/css/lib/base.css">
+        <link rel="stylesheet" type="text/css" href="./css/public.css">
+        <link rel="stylesheet" type="text/css" href="./css/productSku.css">
+        <title>规格选取</title>
+    </head>
+    <body>
+       <div id="scale-wrapper">
+           <div class="top-bar-area">
+               <div class="left-box">
+                   <span class="arrow-back-btn"></span>
+               </div>
+               <div class="middle-box">
+                   <div class="tab-nav">
+                       <span class="tab-item">商品</span>
+                       <span class="tab-item active">详情</span>
+                   </div>
+               </div>
+               <div class="right-box">
+                   <a class="shop-cart"></a>
+                   <a class="share-btn"></a>
+               </div>
+           </div>
+
+           <div class="content-container">
+               <div class="info-tab-nav clearfloat">
+                   <a class="tab-item active">商品介绍</a>
+                   <a class="tab-item" href="./productInfo.html">规格参数</a>
+               </div>
+               <div class="info-tab-content-list">
+                   <div class="tab-content-item active">
+                       <div class="img-holder">
+
+                       </div>
+                   </div>
+               </div>
+           </div>
+
+           <div class="pick-product-area">
+               <div class="pick-container">
+                   <div class="scroll-box" id="scroll-box">
+                       <div class="product-info-box">
+                           <div class="product-img">
+                               <img src="">
+                           </div>
+                           <div class="product-info">
+                               <div class="product-price">
+                                   <span class="unit">￥</span>
+                                   <span class="int-numb">9999999</span>
+                                   <span class="float-numb">.99</span>
+                               </div>
+                               <div class="stock-count">
+                                   库存9999999件数
+                               </div>
+                               <div class="has-picked">
+                                   <span>已选: </span>
+                                   <span class="picked-sku">规格1.1</span>
+                                   <span class="picked-sku">规格1.2</span>
+                               </div>
+                           </div>
+                       </div>
+                       <div class="sku-info-box">
+                           <div class="sku-title">规格</div>
+                           <div class="sku-list">
+                               <span class="sku-item active">规格1.1</span>
+                               <span class="sku-item">规格1.2</span>
+                               <span class="sku-item">规格1.3</span>
+                           </div>
+                       </div>
+                       <div class="sku-info-box">
+                           <div class="sku-title">规格</div>
+                           <div class="sku-list">
+                               <span class="sku-item active">规格1.1</span>
+                               <span class="sku-item">规格1.2</span>
+                               <span class="sku-item">规格1.3</span>
+                           </div>
+                       </div>
+                       <div class="pick-product-numb-box clearfloat">
+                           <span class="product-numb-title">购买数量</span>
+                           <div class="numb-picker">
+                               <span class="sub-btn"></span>
+                               <span class="numb">1</span>
+                               <span class="add-btn"></span>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+           </div>
+
+           <div class="fixed-bottom-container">
+               <div class="fixed-bottom-box clearfloat">
+                   <span class="contact-service"></span>
+                   <span class="add-btn">加入购物车</span>
+               </div>
+           </div>
+       </div>
+        <script src="./framework/js/lib/zepto.js"></script>
+       <script src="./js/public.js"></script>
+        <script>
+            $(function () {
+
+                //初始化高度
+                var _winHeight = $(window).height();
+                $('.pick-product-area').css('height', _winHeight+'px');
+                $('.pick-product-area').on('touchmove',function (e) {
+                    e.preventDefault();
+                    e.stopPropagation();
+                })
+            })
+        </script>
+    </body>
+</html>

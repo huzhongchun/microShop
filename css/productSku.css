@@ -1,0 +1,222 @@
+
+/***** 规格参数 *****/
+
+.info-tab-nav{
+    width: 100%;
+    border-bottom: 2px solid #e6e6e6;
+}
+.info-tab-nav .tab-item{
+    display: block;
+    padding: 6px 20px;
+    font-size: 15px;
+    float: left;
+    font-weight: bold;
+    color: #000;
+}
+.info-tab-nav .tab-item.active{
+    color: #ff8032;
+}
+.info-tab-content-list .tab-content-item{
+    width: 100%;
+    display: none;
+}
+.tab-content-item.active{
+    display: block;
+}
+.tab-content-item img{
+    display: block;
+    width: 100%;
+}
+.info-table-box{
+    background: #f3f8fb;
+    font-size: 12px;
+}
+.table-title{
+    padding: 2px 5px;
+    border-bottom: 1px solid #e6e6e6;
+}
+.table-tr{
+    width: 100%;
+    border-bottom: 1px solid #e6e6e6;
+    font-size: 0;
+}
+.tr-name{
+    display: inline-block;
+    width: 100px;
+    padding: 2px 0 2px 5px;
+    font-size: 12px;
+    border-right: 1px solid #e6e6e6;
+    vertical-align: middle;
+}
+.tr-content{
+    padding: 2px 0 2px 5px;
+    font-size: 12px;
+    vertical-align: middle;
+}
+.add-tr{
+    background: #fff;
+}
+.add-tr .tr-name{
+    height: 14px;
+}
+.add-tr .add-icon{
+    display: inline-block;
+    width: 60px;
+    height: 14px;
+    background: url("../images/add_icon_1.png") 27px -1px no-repeat;
+    background-size: auto 14px;
+    overflow: hidden;
+    vertical-align: middle;
+}
+
+
+/*** 占位 ***/
+.img-holder{
+    width: 100%;
+    height: 390px;
+    background: url("../images/add_icon.png") center no-repeat;
+    background-size: 60px auto;
+}
+
+
+/******* 选择sku ******/
+.pick-product-area{
+    display: block;
+    width: 320px;
+    height: 1000px;
+    padding-bottom: 46px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background: rgba(0,0,0,.6);
+    z-index: 5;
+}
+.pick-container{
+    width: 100%;
+    height: 390px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: #fff;
+}
+.product-info-box{
+    width: 100%;
+    position: relative;
+    font-size: 0;
+    margin-bottom: 10px;
+}
+.product-img{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    border-radius: 4px;
+    border: 1px solid #828181;
+    background: #fff;
+    margin: -10px 8px 0 10px;
+}
+.product-img img{
+    display: block;
+    width: 100%;
+    vertical-align: top;
+}
+.product-info{
+    display: inline-block;
+    width: 185px;
+    vertical-align: top;
+    padding-top: 10px;
+
+}
+.product-info .product-price{
+    color: #f15352;
+    font-size: 0;
+    margin-bottom: 10px;
+}
+.product-price>span{
+    vertical-align: baseline;
+    font-size: 18px;
+    font-weight: bold;
+}
+.product-price .float-numb{
+    font-size: 15px;
+}
+.product-info .stock-count{
+    font-size: 11px;
+    color: #000007;
+    margin-bottom: 10px;
+}
+.product-info .has-picked{
+    font-size: 11px;
+    color: #000007;
+}
+.has-picked>span{
+    vertical-align: middle;
+}
+.has-picked .picked-sku{
+    margin-left: 8px;
+}
+
+.sku-info-box{
+    border-bottom: 1px solid #e6e6e6;
+    padding: 12px 20px 17px;
+}
+.sku-info-box .sku-title{
+    margin-bottom: 10px;
+    font-size: 13px;
+    font-weight: bold;
+}
+.sku-info-box .sku-item{
+    font-size: 12px;
+    color: #474747;
+    border: 1px solid #afafaf;
+    border-radius: 3px;
+    padding: 2px 4px;
+    margin-right: 30px;
+}
+.sku-info-box .sku-item.active{
+    background: #ff8032;
+    border: 1px solid #ff8032;
+    color: #fff;
+}
+.pick-product-numb-box{
+    padding: 12px 20px;
+}
+.pick-product-numb-box .product-numb-title{
+    font-size: 13px;
+    color: #000007;
+    float: left;
+}
+.pick-product-numb-box .numb-picker{
+    width: 125px;
+    float: right;
+    font-size: 0;
+}
+
+.numb-picker>span{
+    display: inline-block;
+    vertical-align: middle;
+    height: 33px;
+    width: 37px;
+    text-align: center;
+    line-height: 37px;
+    font-size: 15px;
+    font-weight:bold;
+}
+.numb-picker .numb{
+    width: 50px;
+    color: #4c4c4c;
+}
+.numb-picker .sub-btn{
+    background: url("../images/picker_icon.png") #f5f5f5 8px center no-repeat;
+    background-size: auto 20px;
+    border-bottom-left-radius: 4px;
+    border-top-left-radius: 4px;
+}
+.numb-picker .add-btn{
+    background: url("../images/picker_icon.png") #f5f5f5 -101px center no-repeat;
+    background-size: auto 20px;
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;
+}

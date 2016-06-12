@@ -7,7 +7,7 @@
 *
 */
 (function(window,F){
-var DialogObject = function(options){
+var dialogObject = function(options){
     this.settings = $.extend({
         element: "element",
         //默认弹出框宽度
@@ -18,7 +18,7 @@ var DialogObject = function(options){
         //弹出框title
         title: "提示", //弹出框的title
         //显示一个按钮还是两个(0,1,2)
-        buttonShowType: 2,
+        buttonShowType: 0,
         //按钮文字
         ok: '确定',
         cancel: '取消',
@@ -50,8 +50,8 @@ var DialogObject = function(options){
     this.bg = '<div class="ui-bg"></div>';
     this.init();
  }
-DialogObject.prototype = {
-    constructor:DialogObject,
+dialogObject.prototype = {
+    constructor:dialogObject,
     init: function() {
         this._appendHtml();
         this._bindEvent();
@@ -162,7 +162,7 @@ DialogObject.prototype = {
     _culculate: function() {
         var self = this;
         self.windowHeight = $(window).height();
-        self.windowWidth = 375;
+        self.windowWidth = 320;
         self.dialog.show();
         self.height = self.dialog.height();
         self.dialog.hide();
@@ -183,5 +183,5 @@ DialogObject.prototype = {
     }
 }
 
-F.addWidget('DialogObject', DialogObject);
+F.addWidget('dialogObject', dialogObject);
 })(window,F)
