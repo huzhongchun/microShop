@@ -1,0 +1,190 @@
+
+/***** 提交订单 *****/
+.top-bar-area .middle-box .page-title{
+    text-align: left;
+}
+
+
+/*** 收货信息 ***/
+.address-info-area{
+    display: block;
+    padding: 10px 16px 5px;
+    background: url("../images/bg_line.png") center bottom no-repeat;
+    background-size: 100% auto;
+    margin-bottom: 8px;
+}
+.address-info-area .receiver-info-box{
+    color: #191919;
+    padding: 0 25px;
+    height: 30px;
+    overflow: hidden;
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+.receiver-info-box .receiver-name{
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    float: left;
+}
+.receiver-info-box .receiver-mobile{
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    float: right;
+}
+.positon-info-box{
+    display: block;
+    padding-bottom: 20px;
+    font-size: 0;
+}
+.position-icon{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url("../images/position_icon.png") center no-repeat;
+    background-size: auto 100%;
+    vertical-align: top;
+    margin-right: 5px;
+}
+.position-text{
+    display: inline-block;
+    width: 230px;
+    font-size: 11px;
+    vertical-align: top;
+    text-align: justify;
+}
+
+.product-info-area{
+    padding: 10px 10px 10px 30px;
+    background: #f3f3f3;
+    font-size: 0;
+}
+.product-info-area .product-img{
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    border-radius: 5px;
+    vertical-align: middle;
+    margin-right: 20px;
+    background: #fff;
+}
+.product-info-area .product-info{
+    width: 175px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.product-info .product-intro-text{
+    display: block;
+    width: 145px;
+    font-size: 12px;
+    text-align: justify;
+    margin-bottom: 10px;
+}
+.product-info .product-price{
+    display: block;
+    width: 100%;
+    text-align: right;
+    margin-bottom: 5px;
+}
+.price-container{
+    font-size: 0;
+    color: #ec5357;
+}
+.price-container>span{
+    vertical-align: baseline;
+    font-size: 12px;
+}
+.price-container .float-numb{
+    font-size: 10px;
+}
+.product-info .product-numb{
+    display: block;
+    text-align: right;
+    font-size: 12px;
+}
+
+.send-method-area{
+    padding: 10px 16px;
+    font-size: 12px;
+    height: 18px;
+    line-height: 18px;
+    border-bottom: 1px solid #e6e6e6;
+}
+.send-method-area .send-title{
+    display: block;
+    height: 18px;
+    float: left;
+}
+.send-method-area .send-method{
+    display: block;
+    height: 18px;
+    float: right;
+    margin-right: 12px;
+}
+.arrow-right{
+    display: block;
+    width: 18px;
+    height: 18px;
+    background: url("../images/arrow_right.png") center no-repeat;
+    background-size: 10px auto;
+    float: right;
+}
+
+.buyer-message-area{
+    padding: 5px 16px 10px;
+    font-size: 0;
+}
+.buyer-message-area .message-title{
+    font-size: 12px;
+    display: inline-block;
+    width: 60px;
+    vertical-align: top;
+    margin-right: 5px;
+    padding: 10px 0;
+}
+.buyer-message-area .message-input-box{
+    display: inline-block;
+    border: 0;
+    padding: 11px 10px;
+    margin: 0;
+    height: 125px;
+    width: 200px;
+    font-size: 12px;
+    resize: none;
+}
+
+.commit-order-btn{
+    display: block;
+    background: #f15352;
+    font-size: 14px;
+    color: #fff;
+    font-weight: bold;
+    display: block;
+    height: 44px;
+    width: 98px;
+    line-height: 44px;
+    text-align: center;
+    float: right;
+}
+.fixed-bottom-box{
+    background: #fff;
+}
+.order-count-box{
+    display: block;
+    width: 215px;
+    height: 44px;
+    line-height: 44px;
+    float: left;
+    text-align: right;
+}
+
+
+
+
+
+
+
+
+
+

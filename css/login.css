@@ -1,0 +1,77 @@
+body,html{
+    background: #f2f2f2;
+}
+/***** 登录 *****/
+.top-bar-area .middle-box{
+    width: 240px;
+}
+.login-area{
+    padding-top: 23px;
+}
+.input-item{
+    display: block;
+    width: 100%;
+    background: #fff;
+    font-size: 0;
+    padding: 10px 0;
+    margin-bottom: 3px;
+}
+.input-name{
+    display: inline-block;
+    width: 70px;
+    margin-right: 5px;
+    text-align: center;
+    font-size: 15px;
+    height: 20px;
+    line-height: 20px;
+    vertical-align: middle;
+}
+.input-box{
+    display: inline-block;
+    width: 220px;
+    height: 20px;
+    overflow: hidden;
+    vertical-align: middle;
+
+}
+
+.input-box input{
+    display: block;
+    padding: 0;
+    border: 0;
+    padding-left: 5px;
+    width: 210px;
+    height: 20px;
+    overflow: hidden;
+    margin: 0;
+}
+.login-btn{
+    display: block;
+    width: 292px;
+    height: 33px;
+    line-height: 33px;
+    text-align: center;
+    background: #b3b3b3;
+    border-radius: 5px;
+    margin: 50px auto 12px;
+}
+.forget-box{
+    display: block;
+    width: 292px;
+    margin: 0 auto;
+    text-align: right;
+}
+.forget-link{
+    color: #b3b3b3;
+}
+.rigest-btn{
+    display: block;
+    margin: 45px auto 20px;
+    width: 100px;
+    border: 1px solid #ff8032;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: #ff8032;
+    border-radius: 5px;
+}

@@ -1,0 +1,58 @@
+body,html{
+    background: #f2f2f2;
+}
+/***** 注册 *****/
+.top-bar-area .middle-box{
+    width: 240px;
+}
+.regist-area{
+    padding-top: 23px;
+}
+.input-item{
+    display: block;
+    width: 100%;
+    background: #fff;
+    font-size: 0;
+    padding: 10px 0;
+    margin-bottom: 3px;
+}
+.input-name{
+    display: inline-block;
+    width: 70px;
+    margin-right: 5px;
+    text-align: center;
+    font-size: 15px;
+    height: 20px;
+    line-height: 20px;
+    vertical-align: middle;
+}
+.input-box{
+    display: inline-block;
+    width: 220px;
+    height: 20px;
+    overflow: hidden;
+    vertical-align: middle;
+
+}
+
+.input-box input{
+    display: block;
+    padding: 0;
+    border: 0;
+    padding-left: 5px;
+    width: 210px;
+    height: 20px;
+    overflow: hidden;
+    margin: 0;
+}
+.regist-btn{
+    display: block;
+    width: 292px;
+    height: 33px;
+    line-height: 33px;
+    text-align: center;
+    background: #ff8032;
+    border-radius: 5px;
+    margin: 50px auto 12px;
+    color: #fff;
+}

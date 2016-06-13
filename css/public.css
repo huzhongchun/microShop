@@ -76,6 +76,9 @@
     background: url("../images/shop_cart_icon.png") 8px center no-repeat;
     background-size: auto 22px;
 }
+.right-box .shop-cart.active{
+    background-position: -23px center;
+}
 .right-box .share-btn{
     display: inline-block;
     width: 50%;
