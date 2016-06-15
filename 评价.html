@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+        <meta name="viewport" id="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+        <meta name="format-detection" content="telephone=no"/>
+        <meta name="format-detection" content="address=no">
+        <link rel="icon" href="">
+        <link rel="stylesheet" type="text/css" href="./framework/css/lib/base.css">
+        <link rel="stylesheet" type="text/css" href="./css/public.css">
+        <link rel="stylesheet" type="text/css" href="./css/comment.css">
+        <title>评价</title>
+    </head>
+    <body>
+       <div id="scale-wrapper">
+           <!-- topBar -->
+           <div class="top-bar-area">
+               <div class="left-box">
+                   <span class="arrow-back-btn"></span>
+               </div>
+               <div class="middle-box">
+                    <div class="page-title">
+                        待评价
+                    </div>
+               </div>
+               <div class="right-box">
+                   <a class="shop-cart"></a>
+                   <a class="menu-btn">
+                       <span class="active-point"></span>
+                   </a>
+               </div>
+           </div>
+           <!-- end -->
+
+           <a class="product-info-box">
+               <div class="product-img">
+                   <img src="">
+               </div>
+               <div class="product-info">
+                   <span class="product-intro-text">
+                       商品描述描述商品描述描述商品描述描述商品描述描述
+                   </span>
+                   <div class="comment-stars-container">
+                       <span class="star-item"></span>
+                       <span class="star-item"></span>
+                       <span class="star-item"></span>
+                       <span class="star-item"></span>
+                       <span class="star-item"></span>
+                   </div>
+               </div>
+           </a>
+           <div class="comment-box">
+               <textarea rows="3" placeholder="评论"></textarea>
+               <span class="limit-input">140</span>
+           </div>
+           <div class="upload-img-box">
+               <label class="upload-btn" for="file-pick">
+                   <input type="file" id="file-pick">
+               </label>
+           </div>
+           <div class="star-pick-box">
+               <div class="pick-item clearfloat">
+                   <span class="pick-name">服务态度</span>
+                   <div class="comment-stars-container">
+                       <span class="star-item"></span>
+                       <span class="star-item"></span>
+                       <span class="star-item"></span>
+                       <span class="star-item"></span>
+                       <span class="star-item"></span>
+                   </div>
+               </div>
+               <div class="pick-item clearfloat">
+                   <span class="pick-name">发货速度</span>
+                   <div class="comment-stars-container">
+                       <span class="star-item"></span>
+                       <span class="star-item"></span>
+                       <span class="star-item"></span>
+                       <span class="star-item"></span>
+                       <span class="star-item"></span>
+                   </div>
+               </div>
+           </div>
+       </div>
+       <script src="./framework/js/lib/zepto.js"></script>
+    <script>
+        $(function () {
+            $('.comment-stars-container .star-item').on('click',function () {
+                var parent = $(this).parent('.comment-stars-container');
+                var index = $(this).index();
+                parent.find('.active').removeClass('active');
+                var child = parent.find('.star-item');
+                for(var i = 0 ;i <= index;i++){
+                    $(child[i]).addClass('active');
+                }
+            })
+        })
+    </script>
+    </body>
+</html>

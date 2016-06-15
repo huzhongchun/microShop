@@ -86,6 +86,26 @@
     background: url("../images/share_icon.png") 8px center no-repeat;
     background-size: auto 24px;
 }
+.right-box .menu-btn{
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+    background: url("../images/menu_icon.png") 8px center no-repeat;
+    background-size: auto 24px;
+    position: relative;
+}
+.menu-btn .active-point{
+    display: block;
+    width: 6px;
+    height: 6px;
+    border-radius: 10px;
+    background: #ff8032;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    z-index: 5;
+
+}
 
 /***** 顶部bar里的tab ******/
 .middle-box .tab-nav{
@@ -184,4 +204,28 @@
     border-radius: 2px;
     position: relative;
     top: 5px;
+}
+
+
+
+/****** 弹窗 ******/
+.ui-dialog-title{
+    display: none;
+}
+.ui-dialog{
+    overflow: hidden;
+    border: 3px solid rgba(0,0,0,.5);
+    border-radius: 10px;
+}
+.ui-dialog-content{
+    padding: 15px;
+}
+.ui-dialog-content .content-text{
+    text-align: center;
+    color: #515151;
+    line-height: 1.7;
+    font-weight: bold;
+}
+.ui-dialog-content .handle-btn-box{
+    margin-top: 8px;
 }

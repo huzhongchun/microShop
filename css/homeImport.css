@@ -232,27 +232,6 @@
 
 
 /****** 弹窗 ******/
-.ui-dialog-title{
-    display: none;
-}
-.ui-dialog{
-    border-radius: 10px;
-    overflow: hidden;
-}
-.ui-dialog-content{
-    padding: 15px;
-    border: 3px solid #828181;
-    border-radius: 10px;
-}
-.ui-dialog-content .content-text{
-    text-align: center;
-    color: #515151;
-    line-height: 1.7;
-    font-weight: bold;
-}
-.ui-dialog-content .handle-btn-box{
-    margin-top: 8px;
-}
 
 .sure-btn{
     display: inline-block;

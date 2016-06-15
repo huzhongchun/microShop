@@ -1,0 +1,157 @@
+
+/***** 提交订单 *****/
+.top-bar-area .middle-box .page-title{
+    text-align: left;
+}
+.right-box{
+    text-align: right;
+}
+/***** 顶部nav ******/
+.tab-nav-area{
+    width: 100%;
+}
+.order-nav-box{
+    font-size: 0;
+}
+.order-nav-box>span{
+    display: inline-block;
+    width: 20%;
+    text-align: center;
+    color: #4d4d4d;
+    padding: 5px 0;
+    font-size: 15px;
+    border-bottom: 3px solid #e6e6e6;
+}
+.order-nav-box>span.active{
+    color: #ff8032;
+    border-bottom: 3px solid #ff8032;
+}
+
+/***** 订单信息 ******/
+.product-info-box{
+    display: block;
+    padding: 10px 10px 10px 30px;
+    background: #f3f3f3;
+    font-size: 0;
+}
+.product-info-box .product-img{
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    border-radius: 5px;
+    vertical-align: middle;
+    margin-right: 20px;
+    background: #fff;
+}
+.product-info-box .product-info{
+    width: 175px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.product-info .product-intro-text{
+    display: block;
+    width: 175px;
+    font-size: 12px;
+    text-align: justify;
+    margin-bottom: 10px;
+}
+.product-info .product-price{
+    display: block;
+    width: 100%;
+    text-align: right;
+    margin-bottom: 5px;
+}
+.price-container{
+    font-size: 0;
+}
+.price-container>span{
+    vertical-align: baseline;
+    font-size: 12px;
+}
+.price-container .float-numb{
+    font-size: 10px;
+}
+.product-info .product-numb{
+    display: block;
+    text-align: right;
+    font-size: 12px;
+}
+
+.comment-stars-container{
+    min-width: 175px;
+    font-size: 0;
+}
+.comment-stars-container .star-item{
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    overflow: hidden;
+    background: url("../images/stars_icon.png") center no-repeat;
+    background-size: auto 21px;
+    margin-right: 10px;
+}
+.comment-stars-container .star-item:last-child{
+    margin-right: 0;
+}
+.star-item.active{
+    background: url("../images/stars_icon_active.png") center no-repeat;
+    background-size: auto 21px;
+}
+.comment-box{
+    padding: 10px 15px;
+    font-size: 0;
+}
+.comment-box textarea{
+    display: inline-block;
+    margin: 0;
+    padding: 10px;
+    border: 1px solid #e6e6e6;
+    border-radius: 5px;
+    width: 225px;
+    font-size: 13px;
+    resize: none;
+    vertical-align: top;
+}
+.comment-box .limit-input{
+    display: inline-block;
+    font-size: 13px;
+    color: #b3b3b3;
+    padding: 5px 10px;
+    vertical-align: top;
+}
+
+.upload-img-box{
+    padding: 0 15px;
+    margin-bottom: 10px;
+}
+.upload-btn{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    background: url("../images/photo_icon.png") center no-repeat;
+    background-size: 100% auto;
+}
+.upload-btn>input{
+    display: none;
+}
+
+.star-pick-box{
+    padding: 0 15px;
+    background: #f3f3f3;
+}
+.pick-item{
+    padding: 5px 0;
+}
+.pick-item .pick-name{
+    color: #4d4d4d;
+    font-size: 13px;
+    display: inline-block;
+    height: 22px;
+    float: left;
+}
+.pick-item .comment-stars-container{
+    display: inline-block;
+    float: right;
+    min-width: 100px;
+}

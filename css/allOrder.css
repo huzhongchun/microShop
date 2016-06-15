@@ -1,0 +1,129 @@
+
+/***** 提交订单 *****/
+.top-bar-area .middle-box .page-title{
+    text-align: left;
+}
+.right-box{
+    text-align: right;
+}
+/***** 顶部nav ******/
+.tab-nav-area{
+    width: 100%;
+}
+.order-nav-box{
+    font-size: 0;
+}
+.order-nav-box>span{
+    display: inline-block;
+    width: 20%;
+    text-align: center;
+    color: #4d4d4d;
+    padding: 5px 0;
+    font-size: 15px;
+    border-bottom: 3px solid #e6e6e6;
+}
+.order-nav-box>span.active{
+    color: #ff8032;
+    border-bottom: 3px solid #ff8032;
+}
+
+/***** 订单信息 ******/
+.order-list-area{
+    width: 100%;
+}
+.order-list{
+    width: 100%;
+}
+.order-item{
+    border-bottom: 3px solid #e6e6e6;
+}
+.order-status{
+    color: #f15352;
+    padding: 5px 10px;
+    font-size: 13px;
+    text-align: right;
+}
+
+.product-info-box{
+    display: block;
+    padding: 10px 10px 10px 30px;
+    background: #f3f3f3;
+    font-size: 0;
+}
+.product-info-box .product-img{
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    border-radius: 5px;
+    vertical-align: middle;
+    margin-right: 20px;
+    background: #fff;
+}
+.product-info-box .product-info{
+    width: 175px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.product-info .product-intro-text{
+    display: block;
+    width: 145px;
+    font-size: 12px;
+    text-align: justify;
+    margin-bottom: 10px;
+}
+.product-info .product-price{
+    display: block;
+    width: 100%;
+    text-align: right;
+    margin-bottom: 5px;
+}
+.price-container{
+    font-size: 0;
+}
+.price-container>span{
+    vertical-align: baseline;
+    font-size: 12px;
+}
+.price-container .float-numb{
+    font-size: 10px;
+}
+.product-info .product-numb{
+    display: block;
+    text-align: right;
+    font-size: 12px;
+}
+.order-count-box{
+    display: block;
+    height: 44px;
+    line-height: 44px;
+    text-align: right;
+    padding-right: 10px;
+}
+
+.order-count{
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.handle-btn-box{
+    padding: 10px;
+    text-align: right;
+    font-size: 0;
+}
+.handle-btn-box>a{
+    display: inline-block;
+    vertical-align: middle;
+    color: #b3b3b3;
+    border: 1px solid #b3b3b3;
+    border-radius: 3px;
+    padding: 3px 5px;
+    font-size: 10px;
+    margin-left: 10px;
+}
+.handle-btn-box>a.active{
+    color: #f15352;
+    border-color: #f15352;
+}
+
+
+
+

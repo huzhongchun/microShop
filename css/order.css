@@ -180,7 +180,34 @@
 }
 
 
-
+/***** 成功的弹窗 ******/
+.content-text{
+    text-align: center;
+    padding-top: 10px;
+}
+.content-text>span{
+    vertical-align: middle;
+}
+.content-text .success-icon{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background: url("../images/success_icon.png") center no-repeat;
+    background-size: 100% auto;
+    margin-right: 10px;
+}
+.handle-btn-box{
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 5px;
+}
+.handle-btn-box .go-shopping-btn{
+    padding: 5px;
+    color: #fff;
+    font-size: 10px;
+    background: #f15352;
+    font-weight: bold;
+}
 
 
 
