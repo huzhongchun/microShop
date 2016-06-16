@@ -1,0 +1,139 @@
+
+/***** 提交订单 *****/
+.top-bar-area .middle-box .page-title{
+    text-align: left;
+}
+.right-box{
+    text-align: right;
+}
+
+.handle-order-area{
+    padding: 5px 10px;
+}
+.check-icon{
+    display: inline-block;
+    width: 23px;
+    height: 25px;
+    overflow: hidden;
+    background: url("../images/check_icon.png") center no-repeat;
+    background-size: 100% auto;
+}
+
+.check-icon.active{
+    background: url("../images/check_icon_active.png") center no-repeat;
+    background-size: 100% auto;
+}
+.handle-order-area .check-icon{
+    float: left;
+}
+.handle-order-area .handle-title{
+    font-size: 13px;
+    color: #000000;
+    display: inline-block;
+    height: 25px;
+    line-height: 25px;
+    float: right;
+}
+
+/***** 订单信息 ******/
+.order-list-area{
+    width: 100%;
+}
+.order-list{
+    background: #e6e6e6;
+    width: 100%;
+}
+.order-item{
+    margin-bottom: 10px;
+    background: #f3f3f3;
+    padding: 10px;
+    font-size: 0;
+    position: relative;
+}
+.order-item:last-child{
+    margin-bottom: 0;
+}
+.order-item .check-icon-container{
+    display: inline-block;
+    height: auto;
+    width: auto;
+    vertical-align: middle;
+    margin-right: 12px;
+}
+.product-info-box{
+    display: inline-block;
+    background: #f3f3f3;
+    font-size: 0;
+    vertical-align: middle;
+}
+.product-info-box .product-img{
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    border-radius: 5px;
+    vertical-align: middle;
+    margin-right: 8px;
+    background: #fff;
+}
+.product-info-box .product-info{
+    width: 175px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.product-info .product-intro-text{
+    display: block;
+    width: 145px;
+    font-size: 12px;
+    text-align: justify;
+    margin-bottom: 10px;
+}
+.product-info .product-price{
+    display: block;
+    width: 100%;
+    text-align: right;
+    margin-bottom: 5px;
+}
+.price-container{
+    font-size: 0;
+}
+.price-container>span{
+    vertical-align: baseline;
+    font-size: 12px;
+}
+.price-container .float-numb{
+    font-size: 10px;
+}
+.product-info .product-numb{
+    display: block;
+    text-align: right;
+    font-size: 12px;
+}
+.delete-oreder-btn{
+    display: block;
+    position: absolute;
+    z-index: 5;
+    right: 0;
+    top:0;
+    background: #f15352;
+    color: #fff;
+    font-size: 13px;
+    height: 100px;
+    width: 50px;
+    text-align: center;
+    line-height: 100px;
+}
+
+.clear-order-area{
+    padding: 15px 10px;
+    text-align: right;
+}
+.clear-order-area .clear-btn{
+    display: inline-block;
+    padding: 3px 5px;
+    border: 1px solid #e6e6e6;
+    border-radius: 4px;
+    color: #4d4d4d;
+}
+
+
+

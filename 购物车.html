@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+        <meta name="viewport" id="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+        <meta name="format-detection" content="telephone=no"/>
+        <meta name="format-detection" content="address=no">
+        <link rel="icon" href="">
+        <link rel="stylesheet" type="text/css" href="./framework/css/lib/base.css">
+        <link rel="stylesheet" type="text/css" href="./css/public.css">
+        <link rel="stylesheet" type="text/css" href="./css/cart.css">
+        <title>购物车</title>
+    </head>
+    <body>
+       <div id="scale-wrapper">
+           <!-- topBar -->
+           <div class="top-bar-area">
+               <div class="left-box">
+                   <span class="arrow-back-btn"></span>
+               </div>
+               <div class="middle-box">
+                    <div class="page-title">
+                        购物车
+                    </div>
+               </div>
+               <div class="right-box">
+                   <a class="shop-cart active"></a>
+                   <a class="share-btn"></a>
+               </div>
+           </div>
+           <!-- end -->
+           <div class="handle-order-area clearfloat">
+               <span class="check-icon"></span>
+               <span class="handle-title">编辑</span>
+           </div>
+           <div class="order-list-area">
+               <ul class="order-list">
+                   <li class="order-item">
+                       <div class="check-icon-container">
+                           <span class="check-icon active"></span>
+                       </div>
+                       <a class="product-info-box">
+                           <div class="product-img">
+                               <img src="">
+                           </div>
+                           <div class="product-info">
+                               <span class="product-intro-text">
+                                   商品描述描述商品描述描述商品描述描述商品描述描述
+                               </span>
+                               <span class="product-price">
+                                   <span class="price-container">
+                                   <span class="unit">￥</span>
+                                   <span class="init-numb">99999</span>
+                                   <span class="float-numb">.99</span>
+                               </span>
+                               </span>
+                               <span class="product-numb">
+                                   x1
+                               </span>
+                           </div>
+                       </a>
+                       <div class="delete-oreder-btn">删除</div>
+                   </li>
+                   <li class="order-item">
+                       <div class="check-icon-container">
+                           <span class="check-icon"></span>
+                       </div>
+                       <a class="product-info-box">
+                           <div class="product-img">
+                               <img src="">
+                           </div>
+                           <div class="product-info">
+                               <span class="product-intro-text">
+                                   商品描述描述商品描述描述商品描述描述商品描述描述
+                               </span>
+                               <span class="product-price">
+                                   <span class="price-container">
+                                   <span class="unit">￥</span>
+                                   <span class="init-numb">99999</span>
+                                   <span class="float-numb">.99</span>
+                               </span>
+                               </span>
+                               <span class="product-numb">
+                                   x1
+                               </span>
+                           </div>
+                       </a>
+                       <div class="delete-oreder-btn">删除</div>
+                   </li>
+               </ul>
+           </div>
+           <div class="clear-order-area">
+               <span class="clear-btn">清除失效商品</span>
+           </div>
+
+       </div>
+       <script src="./framework/js/lib/zepto.js"></script>
+    <script>
+        $('.check-icon').click(function () {
+            $(this).toggleClass('active');
+        })
+    </script>
+    </body>
+</html>
