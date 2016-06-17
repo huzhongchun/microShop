@@ -7,6 +7,7 @@
         <meta name="format-detection" content="address=no">
         <link rel="icon" href="">
         <link rel="stylesheet" type="text/css" href="./framework/css/lib/base.css">
+        <link rel="stylesheet" type="text/css" href="./framework/css/widget/dialog.css">
         <link rel="stylesheet" type="text/css" href="./css/public.css">
         <link rel="stylesheet" type="text/css" href="./css/cart.css">
         <title>购物车</title>
@@ -123,11 +124,70 @@
                    <span class="title-text">猜你喜欢</span>
                </div>
            </div>
+
+           <div class="dialog-share-btns-container">
+               <div class="container-title">选择您的分享方式</div>
+               <div class="share-btns-list">
+                   <span class="share-btn-item">
+                       <i class="share-icon"></i>
+                       <span class="share-method">复制链接</span>
+                   </span>
+               </div>
+           </div>
        </div>
        <script src="./framework/js/lib/zepto.js"></script>
+       <script src="./framework/js/widget/dialog.js"></script>
     <script>
-        $('.check-icon').click(function () {
-            $(this).toggleClass('active');
+
+        $(function () {
+            $('.check-icon').click(function () {
+                $(this).toggleClass('active');
+            });
+
+            var shareTpl = '<div class="dialog-share-btns-container">'+
+                    '<div class="container-title">选择您的分享方式</div>'+
+                    '<div class="share-btns-list clearfloat">'+
+                    '<span class="share-btn-item share-link">'+
+                    '<i class="share-icon"></i>'+
+                    '<span class="share-method">复制链接</span>'+
+                    '</span>'+
+                    '<span class="share-btn-item share-wechat">'+
+                    '<i class="share-icon"></i>'+
+                    '<span class="share-method">微信</span>'+
+                    '</span>'+
+                    '<span class="share-btn-item share-wechat-line">'+
+                    '<i class="share-icon"></i>'+
+                    '<span class="share-method">朋友圈</span>'+
+                    '</span>'+
+                    '<span class="share-btn-item share-qq">'+
+                    '<i class="share-icon"></i>'+
+                    '<span class="share-method">QQ</span>'+
+                    '</span>'+
+                    '<span class="share-btn-item share-webo">'+
+                    '<i class="share-icon"></i>'+
+                    '<span class="share-method">微博</span>'+
+                    '</span>'+
+                    '<span class="share-btn-item share-alibaba">'+
+                    '<i class="share-icon"></i>'+
+                    '<span class="share-method">支付宝</span>'+
+                    '</span>'+
+                    '<span class="share-btn-item share-message">'+
+                    '<i class="share-icon"></i>'+
+                    '<span class="share-method">短信</span>'+
+                    '</span>'+
+                    '</div>'+
+                    '<div class="cancel-box"><span class="cancel-btn">取消</span></div>'+
+                    '</div>';
+
+            var dialog = new F.widget.dialogObject({
+                width: 300,
+                content: shareTpl,
+            });
+
+            $('.cancel-btn').click(function () {
+                dialog.hide();
+            })
+            dialog.show();
         })
     </script>
     </body>
