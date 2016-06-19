@@ -1,0 +1,128 @@
+body,html{
+    background: #f3f3f3;
+}
+/***** 收货地址 *****/
+.top-bar-area .middle-box .page-title{
+    text-align: left;
+}
+.right-box{
+    text-align: right;
+}
+
+.right-box .save-btn{
+    padding: 0 8px;
+    font-weight: bold;
+}
+
+
+.address-add-area{
+    display: block;
+    padding-bottom: 10px;
+    background: #fff;
+    margin-bottom: 10px;
+}
+.address-add-item{
+    padding: 8px 15px;
+    color: #000;
+    font-size: 0;
+    border-bottom: 1px solid #e6e6e6;
+}
+.address-add-item:last-child{
+    border: none;
+}
+.address-add-item .add-item-title{
+    font-size: 12px;
+    line-height: 17px;
+    height: 17px;
+    float: left;
+    width: 55px;
+}
+.address-add-item .add-item-input-box{
+    display: block;
+    float: right;
+    height: 17px;
+    font-size: 0;
+    text-align: right;
+}
+.add-item-input-box input{
+   display: block;
+    border: 0;
+    margin: 0;
+    padding: 0 0 0 5px;
+    height: 17px;
+    line-height: 17px;
+    width: 229px;
+    font-size: 12px;
+}
+.placeholder-text{
+    font-size: 12px;
+    color: #b3b3b3;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+.arrow-right{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url("../images/arrow_right.png") center no-repeat;
+    background-size: 10px auto;
+    vertical-align: middle;
+}
+.address-detail{
+    display: block;
+    margin: 0;
+    padding: 5px;
+    border: 1px solid #b3b3b3;
+    border-radius: 5px;
+    width: 278px;
+    resize: none;
+}
+.address-detail-item{
+    padding:15px;
+}
+
+.address-added-item{
+    margin-bottom: 10px;
+    padding: 7px 10px;
+    font-size: 0;
+    background: #fff;
+}
+.set-default-address{
+    display: inline-block;
+    font-size: 12px;
+    color: #000;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+.address-text{
+    vertical-align: middle;
+    display: inline-block;
+    width: 140px;
+    height: 16px;
+    line-height: 16px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 10px;
+    margin-right: 40px;
+}
+.check-icon{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background: url("../images/check_icon_2.png") center no-repeat;
+    background-size: 14px auto;
+    vertical-align: middle;
+}
+.check-icon.active{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background: url("../images/check_icon_2_active.png") center no-repeat;
+    background-size: 14px auto;
+    vertical-align: middle;
+}
+
+
+
+

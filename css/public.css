@@ -106,6 +106,15 @@
     z-index: 5;
 
 }
+.right-box .save-btn{
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+    color: #ff8032;
+    font-size: 15px;
+    text-align: center;
+    line-height: 42px;
+}
 
 /***** 顶部bar里的tab ******/
 .middle-box .tab-nav{
