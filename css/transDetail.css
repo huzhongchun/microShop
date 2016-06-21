@@ -1,0 +1,132 @@
+
+/***** 物流详情 *****/
+.top-bar-area .middle-box .page-title{
+    text-align: left;
+}
+
+
+.trans-worker-info{
+    padding: 20px 18px;
+    background: #fff;
+    font-size: 0;
+    border-bottom: 3px solid #e6e6e6;
+}
+.trans-worker-info .worker-head{
+    display: inline-block;
+    vertical-align: middle;
+    width: 51px;
+    height: 51px;
+    overflow: hidden;
+    margin-right: 10px;
+}
+.worker-head img{
+    display: block;
+    width: 100%;
+}
+.trans-worker-info .worker-info{
+    display: inline-block;
+    vertical-align: middle;
+    color: #191919;
+    font-size: 11px;
+    line-height: 18px;
+}
+
+
+.trans-status{
+    background: #f3f3f3;
+    padding: 10px 0;
+    font-size: 0;
+}
+.trans-status .product-img{
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    background: #fff;
+    border-radius: 4px;
+    margin-left: 30px;
+    margin-right: 20px;
+    vertical-align: middle;
+}
+.trans-status .product-img img{
+    display: block;
+    width: 100%;
+}
+
+.trans-status .trans-info{
+    display: inline-block;
+    width: 165px;
+    vertical-align: middle;
+    font-size: 10px;
+    color: #808080;
+}
+.trans-info .info-item{
+    display: block;
+    margin-bottom: 5px;
+}
+.status-item{
+    font-size: 11px;
+    color: #191919;
+}
+.color-red{
+    color: #f15352;
+}
+
+.history-list-box{
+    display: block;
+    background: #fff;
+    padding: 10px 0;
+}
+.history-list{
+    display: block;
+    width: 300px;
+    border-left: 3px solid #e6e6e6;
+    margin-left: 17px;
+}
+.history-item{
+    display: block;
+    width: 278px;
+    font-size: 11px;
+    color: #b3b3b3;
+    line-height: 1.5;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #e6e6e6;
+    margin-left: 22px;
+    position: relative;
+    margin-bottom: 5px;
+}
+.active.history-item{
+    color: #8dc81b;
+}
+.history-content{
+    text-align: justify;
+    display: block;
+    padding-right: 10px;
+}
+.history-time{
+    display: block;
+    font-size: 10px;
+    margin-top: 5px;
+    padding-right: 10px;
+}
+
+.point-icon{
+    display: block;
+    width: 20px;
+    height: 20px;
+    overflow: hidden;
+    background: url("../images/point_icon.png") center no-repeat;
+    background-size: auto 100%;
+    position: absolute;
+    top: -5px;
+    left: -33px;
+}
+
+.active .point-icon{
+    background: url("../images/point_icon_active.png") center no-repeat;
+    background-size: auto 100%;
+}
+
+
+
+
+
