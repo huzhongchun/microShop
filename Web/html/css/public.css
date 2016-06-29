@@ -1,0 +1,40 @@
+html{
+    font-size: 10px;
+    line-height: 1.5;
+}
+html,body{
+    color: #191a1f;
+}
+.clearfloat:after{
+    display: block;
+    height: 0;
+    visibility: hidden;
+    clear: both;
+    content: '';
+}
+.top-platform-name{
+    background: #f2f2f2;
+    font-size: 3.0rem;
+    color: #808080;
+    padding: 15px 30px;
+}
+.top-platform-name{
+    border-bottom: 3px solid #cacaca;
+}
+.page-sidebar{
+    margin-top: -3px;
+
+}
+
+.nav-add-btn{
+    display: block;
+    width: 160px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 5px;
+    background: #575d69;
+    font-size: 2.4rem;
+    color: #b3b3b3;
+    margin: 20px auto;
+    padding-left: 30px;
+}

@@ -1,0 +1,11 @@
+
+.user-info-area{
+    padding: 30px 45px;
+    font-size: 3.0rem;
+}
+.logout-btn{
+    color: #808080;
+    font-size: 3.0rem;
+    float: right;
+    text-decoration: underline;
+}

@@ -1,0 +1,157 @@
+
+.store-icon-area{
+    padding: 10px ;
+    border-bottom: 3px solid #e6e6e6;
+    text-align: center;
+}
+.store-icon-area .store-icon{
+    display: inline-block;
+    width: 90px;
+    height: 30px;
+    overflow: hidden;
+    background: url("../images/store_icon.png") center no-repeat;
+    background-size: 100% auto;
+}
+.store-icon-area .open-store{
+    display: inline-block;
+    width: 90px;
+    height: 30px;
+    overflow: hidden;
+    background: url("../images/store_icon_2.png") center no-repeat;
+    background-size: 100% auto;
+}
+
+.my-order-area{
+    padding: 10px 16px;
+    border-bottom: 3px solid #e6e6e6;
+}
+.order-area-title{
+    display: inline-block;
+    font-size: 15px;
+    height: 18px;
+    line-height: 18px;
+    float: left;
+}
+.check-all-order{
+    display: inline-block;
+    height: 18px;
+    float: right;
+    padding-right: 25px;
+    background: url("../images/arrow_right.png")  right center no-repeat;
+    background-size: auto 96%;
+    font-size: 12px;
+    color: #b3b3b3;
+}
+
+
+.order-category-area{
+    border-bottom: 3px solid #e6e6e6;
+    padding: 10px 0;
+    font-size: 0;
+}
+.order-category-area .order-category-item{
+    display: inline-block;
+    width: 20%;
+    text-align: center;
+    position: relative;
+}
+.order-category-item .item-icon{
+    display: block;
+    width: 25px;
+    height: 25px;
+    overflow: hidden;
+    background: url("../images/order_icons.png") 0 0 no-repeat;
+    background-size: auto 20px;
+    margin: 0 auto 10px;
+}
+.order-category-item .numb-icon{
+    display: inline-block;
+    padding: 1px 2px;
+    background: #ff8032;
+    color: #fff;
+    top: -5px;
+    right: 15px;
+    font-size: 9px;
+    border-radius: 20px;
+    position: absolute;
+    z-index: 1;
+}
+
+.order-category-1 .item-icon{
+    background-position: -5px 3px;
+}
+.order-category-2 .item-icon{
+    background-position: -109px 3px;
+}
+.order-category-3 .item-icon{
+    background-position: -215px 3px;
+}
+.order-category-4 .item-icon{
+    background-position: -323px 3px;
+}
+.order-category-5 .item-icon{
+    background-position: -431px 3px;
+}
+
+
+.order-category-item .item-title{
+    display: block;
+    text-align: center;
+    font-size: 10px;
+    color: #4d4d4d;
+}
+
+/***** 猜你喜欢 *****/
+.guess-title{
+    color: #000;
+    font-size: 13px;
+    padding: 10px;
+}
+.product-list-area{
+    width: 100%;
+    background: #fff;
+}
+.product-list{
+    background: #e6e6e6;
+    padding-top: 2px;
+}
+.product-list .product-item{
+    width: 160px;
+    height: 200px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #e6e6e6;
+    border-right: 1px solid #e6e6e6;
+    background: url("../images/add_icon.png") #fff center no-repeat;
+    background-size: 60px auto;
+    float: left;
+}
+.product-item img{
+    display: block;
+    width: 100%;
+}
+.product-list .product-item:nth-child(2n){
+    border-right: none;
+}
+
+
+.setting-area{
+    padding: 10px 16px;
+    border-bottom: 3px solid #e6e6e6;
+}
+.setting-area-title{
+    display: inline-block;
+    font-size: 15px;
+    height: 18px;
+    line-height: 18px;
+    float: left;
+}
+.address-setting{
+    display: inline-block;
+    height: 18px;
+    float: right;
+    padding-right: 25px;
+    background: url("../images/arrow_right.png")  right center no-repeat;
+    background-size: auto 96%;
+    font-size: 12px;
+    color: #b3b3b3;
+}
