@@ -1,0 +1,84 @@
+
+.page-title{
+    padding: 30px 20px;
+    color: #ff8032;
+    font-size: 2.4rem;
+    border-bottom: 4px solid #f3f3f3;
+}
+
+.add-form-box form{
+    padding: 30px 0;
+    font-size: 1.4rem;
+}
+.form-category-title{
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+.form-horizontal .form-group{
+    padding-left: 50px;
+}
+.not-blank{
+    display: inline-block;
+    color: #ff0000;
+    font-size: 2.4rem;
+    min-width: 26px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 1.8rem;
+    width: 3%;
+    position: relative;
+    top: 10px;
+}
+.form-control{
+    width: 92% !important;
+    display: inline-block !important;
+    vertical-align: middle;
+}
+
+
+.img-list{
+    font-size: 0;
+    margin-top: 30px;
+}
+.img-item-box{
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 1.4rem;
+    text-align: center;
+}
+.img-item-box .not-blank{
+    top: 5px;
+    width: auto;
+    min-width: 15px;
+}
+.img-item-box .img-item{
+    display: block;
+    width: 97px;
+    height: 97px;
+    border: 2px solid #ccc;
+    overflow: hidden;
+    vertical-align: middle;
+}
+.img-item-box .img-title{
+    visibility: hidden;
+}
+.active .img-title{
+    visibility: visible;
+}
+.active .img-item{
+    border-color: #ff8032;
+}
+
+
+.editor-container{
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.submit-btn{
+    border: none;
+    font-size: 24px !important;
+    border-bottom: 2px solid #ad551f !important;
+    padding: 6px 20px;
+    background: #ff8032 !important;
+}

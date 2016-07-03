@@ -1,0 +1,35 @@
+
+.date-area{
+    padding: 25px 0 5px;
+    border-bottom: 4px solid #f3f3f3;
+}
+.panel-default .date-item{
+    font-size: 2.4rem;
+    position: relative;
+    margin-right: 15px;
+}
+.date-area .chosen-container{
+    top: -5px;
+}
+.bottom-line{
+    display: block;
+    width: 100%;
+    height: 4px;
+    background: #f3f3f3;
+    position: absolute;
+    bottom: -14px;
+    left: 0;
+}
+.active .bottom-line{
+    background: #ff8032;
+}
+
+
+.data-count-area{
+    padding-top: 40px;
+    font-size: 18px;
+}
+.count-table-title{
+    font-size: 24px;
+    margin-bottom: 10px;
+}

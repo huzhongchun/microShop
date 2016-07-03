@@ -1,0 +1,22 @@
+
+
+.page-title{
+    padding: 30px 20px;
+    color: #ff8032;
+    font-size: 2.4rem;
+    border-bottom: 4px solid #f3f3f3;
+    float: none;
+}
+.import-data-btn{
+    float: right;
+}
+
+table > thead > tr > td, table > tbody > tr > td{
+    vertical-align: middle !important;
+}
+table tbody .icheckbox_square-green{
+    margin-right: 10px;
+}
+.sku-list{
+    padding: 20px 0 0;
+}

@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="zh">
+    <head>        
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" href="favicon.ico" type="image/x-icon" />
+        <title>聚优澳品分享管理平台</title>
+        <link rel="stylesheet" type="text/css" id="theme" href="../static/css/theme-default.css"/>
+        <link rel="stylesheet" type="text/css" href="../static/css/chosen/chosen.css"/>
+        <link rel="stylesheet" type="text/css" href="../static/css/iCheck/custom.css"/>
+        <link rel="stylesheet" type="text/css" href="./css/public.css"/>
+        <link rel="stylesheet" type="text/css" href="./css/dataCount.css"/>
+    </head>
+    <body>
+        <div class="page-container">
+            <div class="top-platform-name">聚优澳品分享管理平台</div>
+            <div class="page-sidebar">
+                <!-- START X-NAVIGATION -->
+                <ul class="x-navigation">
+
+                    <li class="xn-title">Navigation</li>
+                    <li class="">
+                        <a href="首页.html">
+                            <span class="xn-text">首页</span>
+                        </a>
+                    </li>
+                    <li class="">
+                        <a href="index.html">
+                            <span class="xn-text">店铺管理</span>
+                        </a>
+                    </li>
+                    <li class="active">
+                        <a href="报表统计.html">
+                            <span class="xn-text">报表统计</span>
+                        </a>
+                    </li>
+                    <li class="">
+                        <span class="nav-add-btn">
+                            <span class="glyphicon glyphicon-plus"></span>
+                            <span class="">新建</span>
+                        </span>
+                    </li>
+                </ul>
+            </div>
+            <div class="page-content">
+                <!-- PAGE CONTENT WRAPPER -->
+                <div class="page-content-wrap">
+                    <div class="row user-info-area clearfloat">
+                        <span class="user-nick">用户XXXX</span>
+                        <span class="logout-btn">退出</span>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="panel panel-default">
+                                <div class="row date-area">
+                                    <div class="col-md-2 active">
+                                        <span class="date-item">
+                                            本日数据
+                                            <span class="bottom-line"></span>
+                                        </span>
+                                        <select data-placeholder="" class="chosen-select" style="width:350px;" tabindex="2">
+                                            <option value="0">00&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;日</option>
+                                            <option value="1">01&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;日</option>
+                                            <option value="2">02&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;日</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <span class="date-item">本月数据</span>
+                                        <select data-placeholder="" class="chosen-select" style="width:350px;" tabindex="2">
+                                            <option value="0">00&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;月</option>
+                                            <option value="1">01&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;月</option>
+                                            <option value="2">02&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;月</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <span class="date-item">本年数据</span>
+                                        <select data-placeholder="" class="chosen-select" style="width:350px;" tabindex="2">
+                                            <option value="0">0000&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;年</option>
+                                            <option value="1">2016&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;年</option>
+                                            <option value="2">2017&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;年</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="row data-count-area">
+                                    <div class="col-md-6" style="border-right: 4px solid #f3f3f3">
+                                        <div class="count-table-box col-md-9 col-md-offset-1">
+                                            <div class="count-table-title">报表统计</div>
+                                            <table class="table table-bordered" style="text-align: center;">
+                                                <thead style="visibility: hidden">
+                                                <th width="40%"></th>
+                                                <th width="60%"></th>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td>分销店铺会员总数</td>
+                                                        <td>999999</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>分销店铺有订单会员数</td>
+                                                        <td>999999</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>分销店铺订单总数</td>
+                                                        <td>999999</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>分销店铺总会员付费率</td>
+                                                        <td>100%</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>分销店铺成交总金额</td>
+                                                        <td>999999</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="count-table-box col-md-9 col-md-offset-1">
+                                            <div class="count-table-title">分享店铺总订单状态</div>
+                                            <table class="table table-bordered" style="text-align: center;">
+                                                <thead style="visibility: hidden">
+                                                <th width="40%"></th>
+                                                <th width="60%"></th>
+                                                </thead>
+                                                <tbody>
+                                                <tr>
+                                                    <td>已成交</td>
+                                                    <td>999999</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>已确认</td>
+                                                    <td>999999</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>未成交</td>
+                                                    <td>999999</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>无效或取消</td>
+                                                    <td>100%</td>
+                                                </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <script type="text/javascript" src="../static/js/plugins/jquery/jquery.min.js"></script>
+        <script type="text/javascript" src="../static/js/plugins/jquery/jquery-ui.min.js"></script>
+        <script type="text/javascript" src="../static/js/plugins/bootstrap/bootstrap.min.js"></script>
+        <script type="text/javascript" src="../static/js/plugins/mcustomscrollbar/jquery.mCustomScrollbar.min.js"></script>
+        <script type="text/javascript" src="../static/js/plugins/scrolltotop/scrolltopcontrol.js"></script>
+        <script type="text/javascript" src="../static/js/plugins/chosen/chosen.jquery.js"></script>
+        <script type="text/javascript" src="../static/js/plugins/icheck/icheck.min.js"></script>
+
+        <script type="text/javascript" src="../static/js/plugins.js"></script>
+        <script type="text/javascript" src="../static/js/actions.js"></script>
+
+        <script>
+            $(function () {
+
+                $('.chosen-select').chosen({allow_single_deselect:true,width: 100});
+                $('.i-checks').iCheck({
+                    checkboxClass: 'icheckbox_square-green',
+                    radioClass: 'iradio_square-green',
+                });
+            });
+        </script>
+    </body>
+</html>
+
+
+
+
+
+

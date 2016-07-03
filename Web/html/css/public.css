@@ -5,6 +5,9 @@ html{
 html,body{
     color: #191a1f;
 }
+.page-container{
+    font-size: 1.4rem;
+}
 .clearfloat:after{
     display: block;
     height: 0;
@@ -13,7 +16,7 @@ html,body{
     content: '';
 }
 .top-platform-name{
-    background: #f2f2f2;
+    background: #fff;
     font-size: 3.0rem;
     color: #808080;
     padding: 15px 30px;
@@ -37,4 +40,30 @@ html,body{
     color: #b3b3b3;
     margin: 20px auto;
     padding-left: 30px;
+}
+
+
+.user-info-area{
+    padding: 30px 45px;
+    font-size: 3.0rem;
+}
+.logout-btn{
+    color: #808080;
+    font-size: 3.0rem;
+    float: right;
+    text-decoration: underline;
+}
+
+
+/** 重写样式 **/
+.chosen-container-single .chosen-single span{
+    margin-right: 10px;
+}
+.chosen-container-single .chosen-single div b{
+    display: none;
+}
+
+
+.color-orange{
+    color: #ff8032;
 }
