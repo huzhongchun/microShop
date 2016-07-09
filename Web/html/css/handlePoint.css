@@ -1,0 +1,26 @@
+
+.category-item{
+    color: #4e4e4e;
+    padding: 2px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 50px;
+}
+.category-item.active{
+    color: #fff;
+    background: #ff8032;
+    border-color: #ff8032;
+}
+.category-item:last-child{
+    margin-right: 0;
+}
+.add-to{
+    display: block;
+    width: 155px;
+    height: 42px;
+    line-height: 42px;
+    background: url("../images/arrow_right.png") center no-repeat;
+    background-size:auto 100%;
+    padding-left: 4px;
+    margin-top: -11px;
+}

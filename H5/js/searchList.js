@@ -16,5 +16,23 @@ $(function () {
     //右侧商品滑动
     var caregoryScroll = new F.widget.scrollObject({
         id: 'product-scroll',
-    })
+    });
+
+    var _winHeight = $(window).height();
+
+    $('.add-category-item').click(function (e) {
+        var _top = $(this).offset().top + 34;
+        var height = $('.add-category-dialog-box').height();
+        if(_top + height > _winHeight){
+            _top = _top - height - 34;
+        }
+        $('.add-category-dialog-box').css('top',_top+'px');
+
+    });
+    $('.add-category-dialog-box .category-item').click(function(){
+       $(this).parents('.add-category-dialog-box').css('top','1000000px');
+        var title = $(this).find('.category-name').html();
+        var tpl = '<li class="category-item"><span class="category-name">'+title+'</span></li>';
+        $(tpl).insertBefore('.add-category-item');
+    });
 })

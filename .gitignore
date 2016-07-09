@@ -1,0 +1,9 @@
+.idea/*
+composer.lock
+\.orig$
+.DS_Store
+nbproject*
+ide/*
+vendor/*
+config/production
+public/static/upload

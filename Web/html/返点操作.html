@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="zh">
+    <head>        
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" href="favicon.ico" type="image/x-icon" />
+        <title>聚优澳品分享管理平台</title>
+        <link rel="stylesheet" type="text/css" id="theme" href="../static/css/theme-default.css"/>
+        <link rel="stylesheet" type="text/css" href="../static/css/chosen/chosen.css"/>
+        <link rel="stylesheet" type="text/css" href="../static/css/iCheck/custom.css"/>
+        <link rel="stylesheet" type="text/css" href="./css/public.css"/>
+        <link rel="stylesheet" type="text/css" href="./css/handlePoint.css"/>
+    </head>
+    <body>
+        <div class="page-container">
+            <div class="top-platform-name">聚优澳品分享管理平台</div>
+            <div class="page-sidebar">
+                <!-- START X-NAVIGATION -->
+                <ul class="x-navigation">
+
+                    <li class="xn-title">Navigation</li>
+                    <li class="">
+                        <a href="首页.html">
+                            <span class="xn-text">首页</span>
+                        </a>
+                    </li>
+                    <li class="">
+                        <a href="index.html">
+                            <span class="xn-text">店铺管理</span>
+                        </a>
+                    </li>
+                    <li class="active">
+                        <a href="报表统计.html">
+                            <span class="xn-text">报表统计</span>
+                        </a>
+                    </li>
+                    <li class="">
+                        <span class="nav-add-btn">
+                            <span class="glyphicon glyphicon-plus"></span>
+                            <span class="">新建</span>
+                        </span>
+                    </li>
+                </ul>
+            </div>
+            <div class="page-content">
+                <!-- PAGE CONTENT WRAPPER -->
+                <div class="page-content-wrap">
+                    <div class="row user-info-area clearfloat">
+                        <span class="user-nick">用户XXXX</span>
+                        <span class="logout-btn">退出</span>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="panel panel-default">
+                                <div class="row" style="padding: 30px 0 0">
+                                    <div class="form-group col-md-3 col-sm-12">
+                                        <label class="col-sm-5 control-label">店铺名称/ID：</label>
+                                        <div class="col-sm-7">
+                                            <input class="form-control" style="height: 20px;" name="" type="text">
+                                        </div>
+                                    </div>
+                                    <div class="form-group col-md-3 col-sm-12">
+                                        <label class="control-label">
+                                            <span class="category-item">旅行社</span>
+                                            <span class="category-item active">导游</span>
+                                            <span class="category-item">普通</span>
+                                        </label>
+                                    </div>
+                                    <div class="form-group col-md-6 col-sm-12">
+                                        <label class="col-sm-3 control-label">修改返利点数</label>
+                                        <div class="col-sm-9">
+                                            <div class="col-sm-2">
+                                                <input class="form-control" style="height: 20px;" name="" value="5%" type="text">
+                                            </div>
+                                            <div class="col-sm-1">
+                                                —
+                                            </div>
+                                            <div class="col-sm-2">
+                                                <input class="form-control" style="height: 20px;" name="" value="5%" type="text">
+                                            </div>
+                                            <div class="col-sm-5">
+                                                <div class="add-to">将剩余返点添加到</div>
+                                            </div>
+                                            <div class="col-sm-2">
+                                                <span class="btn btn-default btn-xs">批量修改</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <script type="text/javascript" src="../static/js/plugins/jquery/jquery.min.js"></script>
+        <script type="text/javascript" src="../static/js/plugins/jquery/jquery-ui.min.js"></script>
+        <script type="text/javascript" src="../static/js/plugins/bootstrap/bootstrap.min.js"></script>
+        <script type="text/javascript" src="../static/js/plugins/mcustomscrollbar/jquery.mCustomScrollbar.min.js"></script>
+        <script type="text/javascript" src="../static/js/plugins/scrolltotop/scrolltopcontrol.js"></script>
+        <script type="text/javascript" src="../static/js/plugins/chosen/chosen.jquery.js"></script>
+        <script type="text/javascript" src="../static/js/plugins/icheck/icheck.min.js"></script>
+
+        <script type="text/javascript" src="../static/js/plugins.js"></script>
+        <script type="text/javascript" src="../static/js/actions.js"></script>
+
+        <script>
+            $(function () {
+
+                $('.chosen-select').chosen({allow_single_deselect:true,width: 100});
+                $('.i-checks').iCheck({
+                    checkboxClass: 'icheckbox_square-green',
+                    radioClass: 'iradio_square-green',
+                });
+            });
+        </script>
+    </body>
+</html>
+
+
+
+
+
+

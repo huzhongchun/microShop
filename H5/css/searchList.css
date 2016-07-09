@@ -63,3 +63,17 @@
     background: url("../images/add_icon.png") #fff center no-repeat;
     background-size: 60px auto;
 }
+
+
+
+.add-category-dialog-box{
+    position: absolute;
+    left: 0;
+    z-index: 20;
+    border: 1px solid #ff8032;
+    background: #fff;
+    top: 1000000px;
+}
+.add-category-dialog-box .category-list{
+    background: #fff;
+}
