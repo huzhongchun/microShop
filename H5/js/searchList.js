@@ -35,4 +35,4 @@ $(function () {
         var tpl = '<li class="category-item"><span class="category-name">'+title+'</span></li>';
         $(tpl).insertBefore('.add-category-item');
     });
-})
+});

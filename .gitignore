@@ -1,4 +1,4 @@
-.idea/*
+idea/*
 composer.lock
 \.orig$
 .DS_Store

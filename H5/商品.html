@@ -63,9 +63,18 @@
                    <span class="add-btn">加入购物车</span>
                </div>
            </div>
+
+           <iframe class="address-iframe"></iframe>
        </div>
         <script src="./framework/js/lib/zepto.js"></script>
        <script src="./js/public.js"></script>
-
+        <script>
+            $(function () {
+                var _winHeight = $(window).height();
+                $('.change-address').click(function () {
+                    $('.address-iframe').css('height',_winHeight+'px').attr('src','收货地址.html').show();
+                });
+            })
+        </script>
     </body>
 </html>
