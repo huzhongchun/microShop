@@ -15,7 +15,7 @@
     margin-right: 0;
 }
 .add-to{
-    display: block;
+    display: inline-block;
     width: 155px;
     height: 42px;
     line-height: 42px;
@@ -23,4 +23,21 @@
     background-size:auto 100%;
     padding-left: 4px;
     margin-top: -11px;
+}
+
+.table > thead > tr > th{
+    font-size: 18px;
+    text-align: center;
+}
+table > thead > tr > td, table > tbody > tr > td{
+    vertical-align: middle !important;
+    position: relative;
+}
+
+/** 重写样式 **/
+.normal .chosen-container-single .chosen-single span{
+    margin-right: 26px;
+}
+.normal .chosen-container-single .chosen-single div b{
+    display: block;
 }

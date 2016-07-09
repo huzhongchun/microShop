@@ -68,19 +68,26 @@
                                         </label>
                                     </div>
                                     <div class="form-group col-md-6 col-sm-12">
-                                        <label class="col-sm-3 control-label">修改返利点数</label>
-                                        <div class="col-sm-9">
+                                        <label class="col-sm-2 control-label">修改返利点数</label>
+                                        <div class="col-sm-10">
                                             <div class="col-sm-2">
-                                                <input class="form-control" style="height: 20px;" name="" value="5%" type="text">
+                                                <input class="form-control" style="height: 20px;text-align: center;" name="" value="5%" type="text">
                                             </div>
-                                            <div class="col-sm-1">
+                                            <div class="col-sm-1" style="text-align: center;">
                                                 —
                                             </div>
                                             <div class="col-sm-2">
-                                                <input class="form-control" style="height: 20px;" name="" value="5%" type="text">
+                                                <input class="form-control" style="height: 20px;text-align: center;" name="" value="5%" type="text">
                                             </div>
-                                            <div class="col-sm-5">
+                                            <div class="col-sm-5 normal">
                                                 <div class="add-to">将剩余返点添加到</div>
+                                                <label class="control-label">
+                                                <select data-placeholder="" class="chosen-select">
+                                                    <option value="0">聚优澳品</option>
+                                                    <option value="1"></option>
+                                                    <option value="2"></option>
+                                                </select>
+                                                </label>
                                             </div>
                                             <div class="col-sm-2">
                                                 <span class="btn btn-default btn-xs">批量修改</span>
@@ -88,18 +95,230 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="row" style="padding: 15px 0 30px">
-                                    <div class="col-md-2 i-checks">
+                                <div class="row" style="padding: 15px 0 20px">
+                                    <div class="col-md-1 col-sm-12 i-checks">
                                         <label class="checkbox-inline">
                                             <input type="checkbox" value="" name="status">
                                             <span>全部</span>
                                         </label>
                                     </div>
-                                    <div class="col-md-2">
-                                        <label class="col-sm-5 control-label">平台默认返点</label>
-                                        <div class="col-sm-7">
-                                            <input class="form-control" style="height: 20px;" name="" type="text">
+                                    <div class="col-md-2 col-sm-12">
+                                        <label class="col-sm-6 control-label">平台默认返点</label>
+                                        <div class="col-sm-4">
+                                            <input class="form-control" style="height: 20px;text-align: center" name="" value="5%" type="text">
                                         </div>
+                                    </div>
+                                    <div class="form-group col-md-6 col-sm-12">
+                                        <label class="col-md-2 control-label">选择日期</label>
+                                        <div class="col-md-10 i-checks">
+                                            <label class="start-time-box col-sm-5 control-label" style="text-align: center;">
+                                                <select data-placeholder="" class="chosen-select">
+                                                    <option value="0">00&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;日</option>
+                                                    <option value="1">01&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;日</option>
+                                                    <option value="2">02&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;日</option>
+                                                </select>
+                                                <select data-placeholder="" class="chosen-select">
+                                                    <option value="0">00&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;月</option>
+                                                    <option value="1">01&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;月</option>
+                                                    <option value="2">02&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;月</option>
+                                                </select>
+                                                <select data-placeholder="" class="chosen-select">
+                                                    <option value="0">0000&nbsp;年</option>
+                                                    <option value="1">0001&nbsp;年</option>
+                                                    <option value="2">0002&nbsp;年</option>
+                                                </select>
+                                            </label>
+                                            <label class="col-sm-1 control-label" style="color: #b3b3b3;text-align: center;">——</label>
+                                            <label class="end-time-box col-sm-5 control-label" style="text-align: center;">
+                                                <select data-placeholder="" class="chosen-select">
+                                                    <option value="0">00&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;日</option>
+                                                    <option value="1">01&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;日</option>
+                                                    <option value="2">02&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;日</option>
+                                                </select>
+                                                <select data-placeholder="" class="chosen-select">
+                                                    <option value="0">00&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;月</option>
+                                                    <option value="1">01&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;月</option>
+                                                    <option value="2">02&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;月</option>
+                                                </select>
+                                                <select data-placeholder="" class="chosen-select">
+                                                    <option value="0">0000&nbsp;年</option>
+                                                    <option value="1">0001&nbsp;年</option>
+                                                    <option value="2">0002&nbsp;年</option>
+                                                </select>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <label class="col-md-1 col-sm-12" style="text-align: center;">
+                                        <span class="btn btn-sm btn-default">生成列表</span>
+                                    </label>
+                                    <div class="col-md-2 col-sm-12">
+                                        <label class="col-sm-6 col-sm-offset-5">
+                                            <span class="btn btn-default btn-xs">上一页</span>
+                                            <span class="btn btn-default btn-xs">下一页</span>
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="row table-responsive table-container">
+                                        <table style="text-align: center" class="table table-hover table-bordered table-striped table-actions">
+                                            <thead>
+                                            <tr>
+                                                <th width="9%">店铺名称</th>
+                                                <th width="9%">商铺名称</th>
+                                                <th width="9%">创建时间</th>
+                                                <th width="9%">店主姓名</th>
+                                                <th width="9%">关联卡号</th>
+                                                <th width="10%">地址</th>
+                                                <th width="9%">会员数</th>
+                                                <th width="9%">今日访客</th>
+                                                <th width="9%">订单数</th>
+                                                <th width="9%">成交额</th>
+                                                <th width="9%">利润</th>
+                                            </tr>
+                                            </thead>
+                                            <tbody>
+                                            <tr>
+                                                <td>
+                                                    旅行社<br>
+                                                    (下属店铺数据综合)
+                                                </td>
+                                                <td class="i-checks">
+                                                    <label class="checkbox-inline">
+                                                        <input type="checkbox" value="" name="status">
+                                                        <span>AX001</span>
+                                                    </label>
+                                                </td>
+                                                <td>
+                                                    2000-00-00 00:00
+                                                </td>
+                                                <td>
+                                                    导游领队
+                                                </td>
+                                                <td>
+                                                    0000000000000000000000000
+                                                </td>
+                                                <td>
+                                                    XX市-XX区<br>
+                                                    XXXXXXXXXXXXXXX
+                                                </td>
+                                                <td>
+                                                    22222
+                                                </td>
+                                                <td>
+                                                    2222
+                                                </td>
+                                                <td>
+                                                    2222
+                                                </td>
+                                                <td>
+                                                    ￥111,111.00
+                                                </td>
+                                                <td>
+                                                    ￥111,111.00
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="border-right: none;padding: 15px 0;">
+                                                    修改返利点数
+                                                </td>
+                                                <td colspan="10" style="border-left: none;padding: 15px 0;">
+                                                    <div class="form-group row">
+                                                        <div class="col-md-6 col-sm-12">
+                                                            <div class="col-sm-2" style="padding: 10px 0">
+                                                                <input class="form-control" style="height: 20px;text-align: center;" name="" value="5%" type="text">
+                                                            </div>
+                                                            <div class="col-sm-1" style="text-align: center;padding: 5px 0">
+                                                                —
+                                                            </div>
+                                                            <div class="col-sm-2" style="padding: 10px 0">
+                                                                <input class="form-control" style="height: 20px;text-align: center;" name="" value="5%" type="text">
+                                                            </div>
+                                                            <div class="col-sm-7 normal" style="padding: 3px 0">
+                                                                <div class="add-to">将剩余返点添加到</div>
+                                                                <label class="control-label" style="margin-left: 15px">
+                                                                    <select data-placeholder="" class="chosen-select">
+                                                                        <option value="0">聚优澳品</option>
+                                                                        <option value="1"></option>
+                                                                        <option value="2"></option>
+                                                                    </select>
+                                                                </label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    旅行社<br>
+                                                    (下属店铺数据综合)
+                                                </td>
+                                                <td class="i-checks">
+                                                    <label class="checkbox-inline">
+                                                        <input type="checkbox" value="" name="status">
+                                                        <span>AX001</span>
+                                                    </label>
+                                                </td>
+                                                <td>
+                                                    2000-00-00 00:00
+                                                </td>
+                                                <td>
+                                                    导游领队
+                                                </td>
+                                                <td>
+                                                    0000000000000000000000000
+                                                </td>
+                                                <td>
+                                                    XX市-XX区<br>
+                                                    XXXXXXXXXXXXXXX
+                                                </td>
+                                                <td>
+                                                    22222
+                                                </td>
+                                                <td>
+                                                    2222
+                                                </td>
+                                                <td>
+                                                    2222
+                                                </td>
+                                                <td>
+                                                    ￥111,111.00
+                                                </td>
+                                                <td>
+                                                    ￥111,111.00
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="border-right: none;padding: 15px 0;">
+                                                    修改返利点数
+                                                </td>
+                                                <td colspan="10" style="border-left: none;padding: 15px 0;">
+                                                    <div class="form-group row">
+                                                        <div class="col-md-6 col-sm-12">
+                                                            <div class="col-sm-2" style="padding: 10px 0">
+                                                                <input class="form-control" style="height: 20px;text-align: center;" name="" value="5%" type="text">
+                                                            </div>
+                                                            <div class="col-sm-1" style="text-align: center;padding: 5px 0">
+                                                                —
+                                                            </div>
+                                                            <div class="col-sm-2" style="padding: 10px 0">
+                                                                <input class="form-control" style="height: 20px;text-align: center;" name="" value="5%" type="text">
+                                                            </div>
+                                                            <div class="col-sm-7 normal" style="padding: 3px 0">
+                                                                <div class="add-to">将剩余返点添加到</div>
+                                                                <label class="control-label" style="margin-left: 15px">
+                                                                    <select data-placeholder="" class="chosen-select">
+                                                                        <option value="0">聚优澳品</option>
+                                                                        <option value="1"></option>
+                                                                        <option value="2"></option>
+                                                                    </select>
+                                                                </label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            </tbody>
+                                        </table>
                                     </div>
                                 </div>
                             </div>
