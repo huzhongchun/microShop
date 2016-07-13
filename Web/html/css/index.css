@@ -84,14 +84,14 @@
     font-size: 0;
     padding: 15px 10px;
     border-bottom: 2px solid #f3f3f3;
-
 }
 .order-filter .filter-item{
     display: inline-block;
     font-size: 1.8rem;
     line-height: 1.7;
     border-right: 1px solid #f3f3f3;
-    padding: 0 35px;
+    width: 10.9%;
+    text-align: center;
 }
 .order-filter .filter-item:last-child{
     border-right: none;

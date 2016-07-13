@@ -4,7 +4,7 @@
     padding: 2px 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
-    margin-right: 50px;
+    margin-right: 20px;
 }
 .category-item.active{
     color: #fff;
@@ -40,4 +40,23 @@ table > thead > tr > td, table > tbody > tr > td{
 }
 .normal .chosen-container-single .chosen-single div b{
     display: block;
+}
+
+
+.chosen-container{
+    font-size: 12px;
+}
+
+.select-numb{
+    color: #fff;
+    background: #ff8032;
+    display: inline-block;
+    padding: 3px 2px 2px 2px;
+    position: absolute;
+    top: -5px;
+    right: 20px;
+    z-index: 2;
+    line-height: 14px;
+    font-size: 14px;
+    border-radius: 100px;
 }
