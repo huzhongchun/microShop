@@ -1,0 +1,152 @@
+body,html{
+    background: #f2f2f2;
+}
+/***** 支付订单 *****/
+.top-bar-area .middle-box .page-title{
+    text-align: left;
+}
+
+#scale-wrapper{
+    color: #000;
+}
+
+.pay-content{
+    padding: 10px 15px 10px 17px;
+    background: #fff;
+}
+.pay-content .content-text{
+    display: inline-block;
+    float: left;
+    height: 15px;
+    line-height: 15px;
+    text-align: left;
+}
+.pay-content .pay-numb{
+    display: inline-block;
+    float: right;
+    height: 15px;
+    line-height: 15px;
+    text-align: right;
+}
+
+.pay-method-area .pay-area-title{
+    padding: 15px 15px 15px 17px;
+    color: #b3b3b3;
+}
+.pay-method-area .pay-method-list{
+
+}
+.pay-method-list .pay-method-item{
+    display: block;
+    padding: 5px 15px 5px 17px;
+    background: #fff;
+    margin-bottom: 2px;
+}
+.pay-method-item .method-info-item{
+    display: inline-block;
+    font-size: 0;
+}
+.method-info-item .method-icon{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    overflow: hidden;
+    margin-right: 20px;
+    vertical-align: middle;
+}
+.method-icon img{
+    display: block;
+    width: 100%;
+}
+.method-info-item .method-info{
+    display: inline-block;
+    vertical-align: middle;
+}
+.method-info .method-name{
+    display: block;
+    font-size: 12px;
+    line-height: 1.4;
+}
+.method-info .method-desc{
+    display: block;
+    font-size: 10px;
+    line-height: 1.4;
+    color: #b3b3b3;
+}
+
+.pay-method-item .select-box{
+    display: block;
+    float: right;
+    font-size: 0;
+    position: relative;
+    top: 3px;
+}
+.select-box .discount-text{
+    display: inline-block;
+    color: #b3b3b3;
+    vertical-align: middle;
+    font-size: 10px;
+    margin-right: 20px;
+}
+.select-box .radio-select-label{
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+    overflow: hidden;
+    background: url("../images/radio_icon.png") center no-repeat;
+    background-size: auto 100%;
+}
+.radio-select-label input{
+    display: none;
+}
+
+.active .radio-select-label{
+    background: url("../images/radio_icon_selected.png") center no-repeat;
+    background-size: auto 100%;
+}
+
+.final-pay-numb-box{
+    padding: 15px 17px;
+    background: #fff;
+    margin-top: 30px;
+}
+.final-pay-numb-box .final-pay-text{
+    display: inline-block;
+    float: left;
+    height: 15px;
+    line-height: 15px;
+    text-align: left;
+}
+.final-pay-numb-box .pay-numb{
+    display: inline-block;
+    float: right;
+    height: 15px;
+    line-height: 15px;
+    text-align: right;
+    color: #f15352;
+}
+
+.submit-pay-area{
+    width: 100%;
+    height: 50px;
+}
+.submit-pay-area .submit-btn{
+    display: block;
+    width: 290px;
+    height: 50px;
+    line-height: 50px;
+    color: #fff;
+    background: #f15352;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 4px;
+    font-size: 15px;
+}
+.submit-pay-area  .fix-btn-box{
+    width: 100%;
+    position: fixed;
+    bottom: 35px;
+    left: 0;
+    z-index: 2;
+}

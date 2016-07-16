@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" id="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+    <meta name="format-detection" content="telephone=no"/>
+    <meta name="format-detection" content="address=no">
+    <link rel="icon" href="">
+    <link rel="stylesheet" type="text/css" href="./framework/css/lib/base.css">
+    <link rel="stylesheet" type="text/css" href="./css/public.css">
+    <link rel="stylesheet" type="text/css" href="./css/pay.css">
+    <title>支付订单</title>
+</head>
+<body>
+<div id="scale-wrapper">
+    <!-- topBar -->
+    <div class="top-bar-area">
+        <div class="left-box">
+            <span class="arrow-back-btn"></span>
+        </div>
+        <div class="middle-box">
+            <div class="page-title">
+                支付订单
+            </div>
+        </div>
+        <div class="right-box">
+
+        </div>
+    </div>
+    <!-- end -->
+
+    <div class="pay-content clearfloat">
+        <span class="content-text">支付内容</span>
+        <span class="pay-numb">￥0000.00</span>
+    </div>
+
+    <div class="pay-method-area">
+        <div class="pay-area-title">
+            选择支付方式
+        </div>
+        <ul class="pay-method-list">
+            <li class="pay-method-item">
+                <div class="method-info-item">
+                    <span class="method-icon">
+                        <img src="./images/pay_weichat.png">
+                    </span>
+                    <div class="method-info">
+                        <span class="method-name">微信支付</span>
+                        <span class="method-desc">微信用户使用</span>
+                    </div>
+                </div>
+                <div class="select-box">
+                    <span class="discount-text">暂无优惠</span>
+                    <label class="radio-select-label" for="pay-weichat">
+                        <input type="radio" name="pay_method" value="wechat" id="pay-weichat">
+                    </label>
+                </div>
+            </li>
+            <li class="pay-method-item">
+                <div class="method-info-item">
+                    <span class="method-icon">
+                        <img src="./images/pay_alibaba.png">
+                    </span>
+                    <div class="method-info">
+                        <span class="method-name">支付宝支付</span>
+                        <span class="method-desc">支付宝用户使用</span>
+                    </div>
+                </div>
+                <div class="select-box">
+                    <span class="discount-text">暂无优惠</span>
+                    <label class="radio-select-label" for="pay-alibaba">
+                        <input type="radio" name="pay_method" value="alibaba" id="pay-alibaba">
+                    </label>
+                </div>
+            </li>
+            <li class="pay-method-item">
+                <div class="method-info-item">
+                    <span class="method-icon">
+                        <img src="./images/pay_lakala.png">
+                    </span>
+                    <div class="method-info">
+                        <span class="method-name">拉卡拉支付</span>
+                        <span class="method-desc">拉卡拉用户使用</span>
+                    </div>
+                </div>
+                <div class="select-box">
+                    <span class="discount-text">暂无优惠</span>
+                    <label class="radio-select-label" for="pay-lakala">
+                        <input type="radio" name="pay_method" value="lakala" id="pay-lakala">
+                    </label>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+    <div class="final-pay-numb-box clearfloat">
+        <span class="final-pay-text">支付内容</span>
+        <span class="pay-numb">￥0000.00</span>
+    </div>
+
+    <div class="submit-pay-area">
+        <div class="fix-btn-box">
+            <span class="submit-btn">确认支付00000.00元</span>
+        </div>
+    </div>
+
+</div>
+<script src="./framework/js/lib/zepto.js"></script>
+<script>
+    $(function () {
+       $('input[name="pay_method"]').on('change',function () {
+            $('.pay-method-list .active').removeClass('active');
+            $(this).parents('.pay-method-item').addClass('active');
+       });
+    });
+</script>
+</body>
+</html>
