@@ -44,50 +44,68 @@
            </div>
 
            <div class="pick-product-area">
-               <div class="pick-container">
-                   <div class="scroll-box" id="scroll-box">
-                       <div class="product-info-box">
-                           <div class="product-img">
-                               <img src="">
-                           </div>
-                           <div class="product-info">
-                               <div class="product-price">
-                                   <span class="unit">￥</span>
-                                   <span class="int-numb">9999999</span>
-                                   <span class="float-numb">.99</span>
+               <div class="view-box">
+                   <div class="pick-container"  id="scroll-box">
+                       <div class="scroll-box">
+                           <div class="product-info-box">
+                               <div class="product-img">
+                                   <img src="">
                                </div>
-                               <div class="stock-count">
-                                   库存9999999件数
+                               <div class="product-info">
+                                   <div class="product-price">
+                                       <span class="unit">￥</span>
+                                       <span class="int-numb">9999999</span>
+                                       <span class="float-numb">.99</span>
+                                   </div>
+                                   <div class="stock-count">
+                                       库存9999999件数
+                                   </div>
+                                   <div class="has-picked">
+                                       <span>已选: </span>
+                                       <span class="picked-sku">规格1.1</span>
+                                       <span class="picked-sku">规格1.2</span>
+                                   </div>
                                </div>
-                               <div class="has-picked">
-                                   <span>已选: </span>
-                                   <span class="picked-sku">规格1.1</span>
-                                   <span class="picked-sku">规格1.2</span>
+                           </div>
+                           <div class="sku-info-box">
+                               <div class="sku-title">规格</div>
+                               <div class="sku-list">
+                                   <span class="sku-item active">规格1.1</span>
+                                   <span class="sku-item">规格1.2</span>
+                                   <span class="sku-item">规格1.3</span>
                                </div>
                            </div>
-                       </div>
-                       <div class="sku-info-box">
-                           <div class="sku-title">规格</div>
-                           <div class="sku-list">
-                               <span class="sku-item active">规格1.1</span>
-                               <span class="sku-item">规格1.2</span>
-                               <span class="sku-item">规格1.3</span>
+                           <div class="sku-info-box">
+                               <div class="sku-title">规格</div>
+                               <div class="sku-list">
+                                   <span class="sku-item active">规格1.1</span>
+                                   <span class="sku-item">规格1.2</span>
+                                   <span class="sku-item">规格1.3</span>
+                               </div>
                            </div>
-                       </div>
-                       <div class="sku-info-box">
-                           <div class="sku-title">规格</div>
-                           <div class="sku-list">
-                               <span class="sku-item active">规格1.1</span>
-                               <span class="sku-item">规格1.2</span>
-                               <span class="sku-item">规格1.3</span>
+                           <div class="sku-info-box">
+                               <div class="sku-title">规格</div>
+                               <div class="sku-list">
+                                   <span class="sku-item active">规格1.1</span>
+                                   <span class="sku-item">规格1.2</span>
+                                   <span class="sku-item">规格1.3</span>
+                               </div>
                            </div>
-                       </div>
-                       <div class="pick-product-numb-box clearfloat">
-                           <span class="product-numb-title">购买数量</span>
-                           <div class="numb-picker">
-                               <span class="sub-btn"></span>
-                               <span class="numb">1</span>
-                               <span class="add-btn"></span>
+                           <div class="sku-info-box">
+                               <div class="sku-title">规格</div>
+                               <div class="sku-list">
+                                   <span class="sku-item active">规格1.1</span>
+                                   <span class="sku-item">规格1.2</span>
+                                   <span class="sku-item">规格1.3</span>
+                               </div>
+                           </div>
+                           <div class="pick-product-numb-box clearfloat">
+                               <span class="product-numb-title">购买数量</span>
+                               <div class="numb-picker">
+                                   <span class="sub-btn"></span>
+                                   <span class="numb">1</span>
+                                   <span class="add-btn"></span>
+                               </div>
                            </div>
                        </div>
                    </div>
@@ -102,6 +120,7 @@
            </div>
        </div>
         <script src="./framework/js/lib/zepto.js"></script>
+       <script src="./framework/js/widget/scroll.js"></script>
        <script src="./js/public.js"></script>
         <script>
             $(function () {
@@ -112,7 +131,12 @@
                 $('.pick-product-area').on('touchmove',function (e) {
                     e.preventDefault();
                     e.stopPropagation();
-                })
+                });
+
+                //左侧分类滑动
+                var scroll = new F.widget.scrollObject({
+                    id: 'scroll-box',
+                });
             })
         </script>
     </body>
