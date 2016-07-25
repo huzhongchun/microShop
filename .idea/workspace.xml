@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="168fc3bc-37d8-43b2-84f3-2dccf37ad04d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/H5/css/myStore.css" afterPath="$PROJECT_DIR$/H5/css/myStore.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/H5/css/productSku.css" afterPath="$PROJECT_DIR$/H5/css/productSku.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/H5/我的店铺.html" afterPath="$PROJECT_DIR$/H5/我的店铺.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/H5/规格选取.html" afterPath="$PROJECT_DIR$/H5/规格选取.html" />
-    </list>
+    <list default="true" id="168fc3bc-37d8-43b2-84f3-2dccf37ad04d" name="Default" comment="" />
     <ignored path="JuYouAoPin.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -41,8 +35,8 @@
       <file leaf-file-name="productSku.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/H5/css/productSku.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="167" column="1" selection-start-line="167" selection-start-column="1" selection-end-line="167" selection-end-column="1" />
+            <state relative-caret-position="276">
+              <caret line="175" column="20" selection-start-line="175" selection-start-column="20" selection-end-line="175" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -386,12 +380,12 @@
       <workItem from="1468725446171" duration="143000" />
       <workItem from="1468849675441" duration="1531000" />
       <workItem from="1469080145656" duration="1020000" />
-      <workItem from="1469108576457" duration="75000" />
+      <workItem from="1469108576457" duration="267000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="119924000" />
+    <option name="totallyTimeSpent" value="120116000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="6" />
@@ -727,8 +721,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/H5/css/productSku.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="167" column="1" selection-start-line="167" selection-start-column="1" selection-end-line="167" selection-end-column="1" />
+        <state relative-caret-position="276">
+          <caret line="175" column="20" selection-start-line="175" selection-start-column="20" selection-end-line="175" selection-end-column="20" />
           <folding />
         </state>
       </provider>
