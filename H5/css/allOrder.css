@@ -19,7 +19,7 @@
     text-align: center;
     color: #4d4d4d;
     padding: 5px 0;
-    font-size: 15px;
+    font-size: 13px;
     border-bottom: 3px solid #e6e6e6;
 }
 .order-nav-box>span.active{
@@ -40,7 +40,7 @@
 .order-status{
     color: #f15352;
     padding: 5px 10px;
-    font-size: 13px;
+    font-size: 12px;
     text-align: right;
 }
 

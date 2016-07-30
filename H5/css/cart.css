@@ -233,3 +233,6 @@
     margin: auto;
     text-align: center;
 }
+.ui-dialog-content{
+    background: #fff;
+}

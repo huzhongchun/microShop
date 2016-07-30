@@ -51,8 +51,9 @@ body,html{
     height: 33px;
     line-height: 33px;
     text-align: center;
-    background: #b3b3b3;
+    background: #ff8032;
     border-radius: 5px;
+    color: #fff;
     margin: 50px auto 12px;
 }
 .forget-box{

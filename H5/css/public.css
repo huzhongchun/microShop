@@ -46,7 +46,7 @@
 }
 .search-product .search-input{
     display: inline-block;
-    font-size: 15px;
+    font-size: 13px;
     padding: 0;
     margin: 0;
     border: none;
@@ -126,7 +126,7 @@
     height: 42px;
 }
 .tab-nav .tab-item{
-    font-size: 18px;
+    font-size: 15px;
     line-height: 42px;
     padding: 0 25px;
     font-weight: bold;
@@ -140,7 +140,7 @@
 /****** 页面标题 ******/
 .middle-box .page-title{
     text-align: center;
-    font-size: 18px;
+    font-size: 15px;
     height: 42px;
     line-height: 42px;
 }
