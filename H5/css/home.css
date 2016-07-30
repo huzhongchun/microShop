@@ -17,14 +17,13 @@
 }
 .handle-order-item .handle-name{
     vertical-align: middle;
-    font-size: 15px;
+    font-size: 13px;
     line-height: 18px;
     height: 18px;
 }
 .handle-order-item .hanle-arrow{
     display: inline-block;
-    width: 13px;
-    height: 14px;
+    width: 11px;
     overflow: hidden;
     vertical-align: middle;
 }
@@ -84,6 +83,7 @@
     padding-left: 2px;
     font-size: 12px;
     margin-bottom: 6px;
+    text-align: center;
 }
 .product-item .activity-text{
     display: block;
@@ -103,13 +103,13 @@
 }
 .product-item .add-shop-cart{
     display: block;
-    width: 35px;
-    height: 35px;
+    width: 25px;
+    height: 25px;
     overflow: hidden;
     background: url("../images/add_shop_cart.png") center no-repeat;
-    background-size: 35px auto;
+    background-size: 100% auto;
     position: absolute;
-    bottom: 5px;
+    bottom: 11px;
     right: 8px;
     z-index: 4;
 }

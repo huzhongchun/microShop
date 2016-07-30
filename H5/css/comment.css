@@ -51,7 +51,7 @@
 .product-info .product-intro-text{
     display: block;
     width: 175px;
-    font-size: 12px;
+    font-size: 11px;
     text-align: justify;
     margin-bottom: 10px;
 }
@@ -83,11 +83,11 @@
 }
 .comment-stars-container .star-item{
     display: inline-block;
-    width: 22px;
-    height: 22px;
+    width: 20px;
+    height: 20px;
     overflow: hidden;
     background: url("../images/stars_icon.png") center no-repeat;
-    background-size: auto 21px;
+    background-size: auto 19px;
     margin-right: 10px;
 }
 .comment-stars-container .star-item:last-child{
@@ -95,7 +95,7 @@
 }
 .star-item.active{
     background: url("../images/stars_icon_active.png") center no-repeat;
-    background-size: auto 21px;
+    background-size: auto 19px;
 }
 .comment-box{
     padding: 10px 15px;
@@ -108,7 +108,7 @@
     border: 1px solid #e6e6e6;
     border-radius: 5px;
     width: 225px;
-    font-size: 13px;
+    font-size: 12px;
     resize: none;
     vertical-align: top;
 }
@@ -145,7 +145,7 @@
 }
 .pick-item .pick-name{
     color: #4d4d4d;
-    font-size: 13px;
+    font-size: 12px;
     display: inline-block;
     height: 22px;
     float: left;
