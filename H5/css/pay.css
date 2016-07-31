@@ -90,8 +90,8 @@ body,html{
 }
 .select-box .radio-select-label{
     display: inline-block;
-    width: 24px;
-    height: 24px;
+    width: 20px;
+    height: 20px;
     vertical-align: middle;
     overflow: hidden;
     background: url("../images/radio_icon.png") center no-repeat;
