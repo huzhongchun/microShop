@@ -51,7 +51,7 @@
     margin: 0;
     border: none;
     padding-left: 15px;
-    width: 120px;
+    width: 110px;
     height: 100%;
     vertical-align: middle;
     background: transparent;
@@ -61,7 +61,7 @@
     width: 40px;
     height: 100%;
     background: url("../images/search_icon.png") center no-repeat;
-    background-size: 18px auto;
+    background-size: 15px auto;
     vertical-align: middle;
 }
 .top-bar-area .right-box{
@@ -225,7 +225,7 @@
 }
 .ui-dialog{
     overflow: hidden;
-    border-radius: 10px;
+    border-radius: 10px !important;
 }
 .ui-dialog-content{
     padding: 15px;
@@ -247,13 +247,30 @@
 .dialog-share-btns-container{
 
 }
-.dialog-share-btns-container .container-title{
+.container-title{
     font-size: 12px;
     padding-bottom: 5px;
     border-bottom: 1px solid #e6e6e6;
 }
 .dialog-share-btns-container .share-btns-list{
     font-size: 0;
+    padding: 10px 0;
+}
+.dialog-share-btns-container .share-btns-list>a{
+    margin-right: 15px;
+    display: block;
+    width: 40px !important;
+    height: 40px !important;
+    overflow: hidden;
+    background: url("../images/share_icons.png") 0 center no-repeat !important;
+    background-size: auto 100% !important;
+}
+
+.share-btns-list .bds_sqq{
+    background-position: -166px center !important;
+}
+.share-btns-list .bds_tsina{
+    background-position: -219px center !important;
 }
 .share-btns-list .share-btn-item{
     display: inline-block;

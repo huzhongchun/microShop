@@ -108,12 +108,12 @@
     color: #808080;
 }
 .product-info-box .add-btn{
-    display: inline-block;
-    font-size: 10px;
-    color: #fff;
-    background: #ff8032;
     position: absolute;
     right: 0;
     bottom: 9px;
-    padding: 3px 5px;
+    display: block;
+    width: 25px;
+    height: 25px;
+    background: url("../images/add_shop_cart.png") center no-repeat;
+    background-size: 100% auto;
 }
