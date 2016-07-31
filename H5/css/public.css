@@ -262,8 +262,8 @@
     width: 40px !important;
     height: 40px !important;
     overflow: hidden;
-    background: url("../images/share_icons.png") 0 center no-repeat !important;
-    background-size: auto 100% !important;
+    background: url("../images/share_icons.png") 0 center no-repeat ;
+    background-size: auto 100%;
 }
 
 .share-btns-list .bds_sqq{
