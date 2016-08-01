@@ -119,6 +119,7 @@
     height: 100%;
     overflow: hidden;
     float: left;
+    position: relative;
 }
 .product-img img{
     display: block;
@@ -170,4 +171,16 @@
     background: url("../images/user_icon.png") center no-repeat;
     background-size: auto 20px;
     float: left;
+}
+
+.first-big-item .product-img img{
+    display: block;
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
 }
